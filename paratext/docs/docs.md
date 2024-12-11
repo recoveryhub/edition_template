@@ -1,3 +1,10 @@
+---
+layout: default
+title: Documentation
+permalink: docs
+docs_number: 1
+---
+
 # Recovery Hub Digital Edition Template
 Welcome to the Recovery Hub for American Women Writers’ template for text-based digital editions.  This template supports the creation of digital editions using Markdown and TEI for transcriptions and GitHub Pages for publication on the web.
 
@@ -29,8 +36,12 @@ of digital content. To learn more, visit the
 
 ## Getting Started
 
-[In-depth tutorials](https://recoveryhub.github.io/edition_template/docs) 
-are available on our example site and in the files of this template.
+[GitHub](https://github.com/) is a free, open-access resource that stores files 
+that can run a website; it can also host that website thanks to a feature called 
+[GitHub pages](https://docs.github.com/pages/). 
+
+If you don't have a GitHub account, follow the instructions for 
+[Creating an account on GitHub](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
 
 To get started with your own edition, click the "Use this template" button 
 above to make a copy on your own GitHub account. For detailed instructions, 
@@ -43,17 +54,29 @@ Our recommendations for options on the "Create a new repository" page:
 - The **Description** is optional. You can always add or change it later.
 - Whether your repository starts out as **Public** or **Private** is up to you. Either way, people will not be able to make changes without your approval. If the repository is **Private**, only people you add as members will be able to see that it exists (to learn how to add members, see [Inviting Collaborators to a personal repository](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) in GitHub's documentation). Many people prefer to make their repository **Private** initially; just be aware that you will have to go into your settings later and change your repository to **Public** before you can publish your edition with GitHub pages.
 
+## Folder Structure
+
+The folders you will primarily use are:
+- `docs`, which is for documentation
+- `items`, which is where your transcriptions will go when they are ready to publish. You will copy your ready-to-publish Markdown-encoded documents (`.md`) here manually; if you are working with TEI (`.xml`) files, they will be moved here by the Jekyll framework when they are transformed. **NOTE TO DOCUMENTERS: CHECK THIS ONCE TEI TRANSFORMAQTION SCRIPT IS FINISHED.**
+  - If you are working with multiple genres, use the subfolders in `items` to organize your files by genre. The sample files in the template are organized by `books`, `periodicals`, and `poems`.
+- `source`, which is where you'll store the following:
+  - The `drafts` folder can be (re)organized to your liking. We recommending organizing them by file type (e.g. `markdown` or `tei`). In this sample template, we've also organized the Markdown drafts by genre. Both are optional.
+  - The `tei` folder is where you will place your ready-to-publish TEI-encoded documents (`.xml`). Jekyll will run a script that transforms all files in this folder, copy them to the `items` folder, and publish them on the website. **NOTE TO DOCUMENTERS: CHECK THIS ONCE TEI TRANSFORMAQTION SCRIPT IS FINISHED.**
+- `items`, which is where your transcriptions will end up when they are published.
+- If you have images to display on your site, you can use the `assets/images` folder to organize them. The home page banner image that the template uses is `assets/images/recovery-hub-banner.jpg.` To replace it with a custom banner image, follow the instructions under [Configuring your digital edition](https://recoveryhub.github.io/edition_base/docs/config).
+
+Folders beginning with an underscore (`_includes`, `_layouts`, etc.) contain the 
+files for the Jekyll site and theme. 
+
+
+
 ## Transcription and editing
 
 For detailed documentation on transcribing sources, organizing files, and 
 readying your edition for publishing online, see our 
-[Transcription Tutorial](https://recoveryhub.github.io/edition_base/docs/transcription).
+[Transcription tutorial](https://recoveryhub.github.io/edition_base/docs/transcription).
 
-### Page title or heading 1 is required for publishing
-
-All markdown files must have either a [Heading 1](https://www.markdownguide.org/basic-syntax/#headings) at the top of the document, or must declare a `title:` in the frontmatter. This is because of the [jekyll-optional-front-matter](https://github.com/benbalter/jekyll-optional-front-matter) dependency for GitHub Pages.
-
-Files that don't do one of these things will be not be processed - that is, they won't be transformed into HTML or included in any of the listings, but they will be passed through as-is. For more information see metadata, below. 
 
 ## Configuring your site
 
@@ -69,8 +92,7 @@ tutorial.
 To publish, enable GitHub Pages by going to your repository's settings, 
 clicking "Pages" in the left sidebar, choosing your branch as the source, and 
 clicking save. Step-by-step instructions are available in GitHub's official documentation, 
-[Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Once your site is 
-published, the URL will be visible under "About" when you view 
+[Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Once your site is  published, the URL will be visible under "About" when you view 
 your repository on GitHub.
 
 **Your repository must be public before it can be published with GitHub Pages.** 
@@ -90,3 +112,32 @@ url: "https://recoveryhub.github.io/"
 
 Once GitHub regenerates your pages (it can take up to a couple of minutes but 
 is usually pretty quick), you can see your site.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Jekyll](https://github.com/jekyll/) is a platform that helps you create a static website from plaintext (for more on plaintext and other related terms, see our Tech Terms Glossary). Static websites are different from dynamic websites (like those made on Wordpress and Omeka) because dynamic websites pull information from a database to fill the webpage content. Jekyll sites can be written completely by users or can use HTML templates that Jekyll helps provide.
+
+If you need to look up documentation on working with Jekyll specifically, the current docs on jekyllrb.com will not always match what you are working with since they are for a newer version. Looking for the page you need in the [Jekyll GitHub repo at the 3.9.5 release tag](https://github.com/jekyll/jekyll/tree/v3.9.5/docs) may help.
