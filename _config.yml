@@ -18,16 +18,227 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+
+##############
+# Site Title #
+##############
+
 title: Recovery Hub Digital Edition Template
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+
+
+
+#############
+# Site URL #
+#############
+# baseurl matches your repository name
+# url for Recovery Hub projects is "https://recoveryhub.github.io/"
+# for non-Recovery Hub projects, check your GitHub Pages URL
+
+baseurl: "/edition_template"
+url: "https://recoveryhub.github.io/"
+
+
+
+####################
+# Site Description #
+####################
+# This description will appear on your home page. 
+# If you need to add more content to your home page (text, images, etc.), 
+# you can do so using the Markdown file index.md.
+
+description: >- 
   Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/edition_template" # the subpath of your site, e.g. /blog
-url: "https://recoveryhub.github.io/" # should not change for Recovery Hub projects
-twitter_username: jekyllrb
-github_username:  jekyll
+  line in _config.yml. It will appear on your home page, in your document 
+  head meta for Google search results, and in your RSS feed.xml site description.
+
+
+####################
+# Navigation Links #
+####################
+# This allows you to customize which pages appear in the navigation menu.  
+# List them here (with the full path to the file, including folder names) 
+# in the order you wish them to appear. 
+
+header_pages:  
+  - "paratext/docs/tutorial.md" # tutorial pages
+  - "items/books/edbase.bk00001.md" # example book
+  - "items/periodicals/edbase.per00001.md" # example periodical
+  - "items/poems/edbase.pm00001.md" # example poem
+  - "paratext/docs/all-pages.html" # list of all pages in this template
+
+
+################
+# Banner Image #
+################
+# To use a custom banner image, name your image "banner.jpg" and replace
+# the existing file in the /assets/images folder.
+# banner_size sets the width of the image. "half" is the default. 
+# For a full-width image, use banner_size: "full" instead.
+
+banner_image: assets/images/banner.jpg
+banner_alt_text: Recovery Hub of American Women Writers with quill icon and pages of a book in the background
+banner_size: "half" # change to "full" if you want a full-width image
+
+
+
+#####################################
+# Editor(s) of this Digital Edition #
+#####################################
+# If most (or all) pages in this edition have the same editor(s), it's easier
+# to set a default here than to include it in the metadata for every item. 
+# If you decide to set a default here, you can still override it on individual 
+# items by filling in "file_edited_by:" in the item's frontmatter/metadata.
+
+editor: Editor(s) names here
+
+
+
+#########################
+# Contact Info #
+#########################
+# These variables control the information that appears in the footer. 
+# Variables with '#' at the beginning of the line are "commented out" 
+# and won't be included in the site. To "uncomment" them and have them
+# appear on the site, remove the '#" from the beginning of the line.
+
+author:
+  name: Your name(s)
+  email: contact-email@example.com
+  institution: Your institution(s) or organization(s)
+
+#privacy_notice: https://www.example.com/your-privacy-notice-url
+
+#twitter_username: YourUsername
+github_username:  YourUsername
+#dribbble_username: YourUsername
+facebook_username: YourUsername
+#flickr_username: YourUsername
+#instagram_username: YourUsername
+#linkedin_username: YourUsername
+#pinterest_username: YourUsername
+#youtube_username: YourUsername
+#googleplus_username: +YourUsername
+#rss: rss
+
+#mastodon:
+# - username: jekyll
+#   instance: example.com
+# - username: jekyll2
+#   instance: example.com
+
+
+##################################
+# Sponsors / Institutional Logos #
+##################################
+# To credit project partners using linked logos in the footer, uncomment 
+# the first line (remove the '#' symbol at the beginning of "#sponsors:")
+# and then repeat the following for each logo:
+#
+# 1. place your logo in the images folder, /assets/images/
+# 2. uncomment the 4-line set of variables for that sponsor (remove the '#' symbol 
+#    at the beginning of each line, starting with "- sponsor:", then "name:",
+#    "link:", and "logo_path:").
+# 3. fill in "name:" with their name, as it should be displayed
+# 4. fill in "link" with a link to their website
+# 5. fill in the path to the logo image you added, including the folder path
+#     (e.g. assets/images/your-logo.jpg)
+# 6. To add additional sponsors, copy and paste the 4 lines 
+#    starting with "- sponsor:" and ending with "logo_path:"
+
+#sponsors:
+#  - sponsor:
+#    name: Southern Illinois University Edwardsville
+#    link: https://www.siue.edu/
+#    logo_path: assets/images/siue.png
+    
+#  - sponsor: 
+#    name: University of Nebraska–Lincoln
+#    link: https://www.unl.edu/
+#    logo_path: assets/images/unl.png
+
+
+
+##############
+# Categories #
+##############
+# This sets default categories for your Markdown or TEI files based on
+# the folder in which they are located.
+# # We use this custom method of setting up categories instead of Jekyll's 
+# built-in collections functionality because the latter does not account 
+# for files with no frontmatter.
+# Categories listed here must match the categories in "defaults:" below. 
+# If you add a category, be sure to add it in both places.
+# In defaults, copy and paste the 6-line set of variables, starting with 
+# "  - scope:" and ending with "category:". 
+# Make sure to use the same pattern of indentation.
+
+category_list: [
+  "none", 
+  "drafts", 
+  "books", 
+  "periodicals", 
+  "essays", 
+  "poems", 
+  "documentation"
+  ]
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: pages
+    values:
+      layout: default
+      category: none
+  - scope:
+      path: "source/drafts"
+      type: pages
+    values:
+      layout: default
+      category: drafts
+# Item Types
+  - scope:
+      path: "items/books"
+      type: pages
+    values:
+      layout: paginate
+      category: books
+  - scope:
+      path: "items/periodicals"
+      type: pages
+    values:
+      layout: paginate
+      category: periodicals
+  - scope:
+      path: "items/poems"
+      type: pages
+    values:
+      layout: default
+      category: poems
+# Paratext (Introduction, Essays, Documentation)
+  - scope:
+      path: "essays"
+      type: pages
+    values:
+      layout: default
+      category: essays
+  - scope:
+      path: "docs"
+      type: pages
+    values:
+      layout: default
+      category: documentation
+
+# To use Jekyll collections, set them up here:
+collections: 
+  - items
+
+
+
+##################
+# Other Settings #
+##################
+# Settings that typically won't need to be altered for this template.
 
 # Build settings
 theme: minima
@@ -42,7 +253,8 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - source/drafts
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
