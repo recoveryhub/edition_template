@@ -688,9 +688,11 @@ details .details-content {
 }
 
 .metadata-box summary h2,
-.chapter-list summary h2 {
+.chapter-list summary h2,
+.about-this-edition h3 {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 20px;
+  font-weight: bold;
   margin-bottom: 4px;
   margin-top: 0;
   vertical-align: middle;
