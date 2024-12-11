@@ -57,11 +57,11 @@ description: >-
 # Navigation Links #
 ####################
 # This allows you to customize which pages appear in the navigation menu.  
-# List them here (with the full path to the file, including folder names) 
+# List them here (with the full path to the file, including folder names)
 # in the order you wish them to appear. 
 
 header_pages:  
-  - "paratext/docs/tutorial.md" # tutorial pages
+  - "paratext/docs/docs.md" # tutorial pages
   - "items/books/edbase.bk00001.md" # example book
   - "items/periodicals/edbase.per00001.md" # example periodical
   - "items/poems/edbase.pm00001.md" # example poem
