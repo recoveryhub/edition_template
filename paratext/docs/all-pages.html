@@ -94,12 +94,14 @@ title: View All
   {%- endfor -%}
 </ul> -->
 
-<h2>All TEI files</h2>
+{% if site.texts.size > 0 %}
+  <h2>All TEI files</h2>
 
-<ul>
-  {% for text in site.texts %}
-    <li>
-      <a href="{{ text.url | relative_url }}">{{ text.title }}</a> ({{text.category}})
-    </li>
-  {% endfor %}
-</ul>
+  <ul>
+    {% for text in site.texts %}
+      <li>
+        <a href="{{ text.url | relative_url }}">{{ text.title }}</a> ({{text.category}})
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
