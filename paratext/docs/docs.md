@@ -33,6 +33,7 @@ of digital content. To learn more, visit the
 - TEI in HTML5 Custom Elements based on [CETEIcean](https://github.com/TEIC/CETEIcean)
 - Recovery Hub theme based on [Minima](https://github.com/jekyll/minima) version [2.5.1](https://github.com/jekyll/minima/releases/tag/v2.5.1)
 - [jQuery 3.7.1 slim build](https://jquery.com/download/)
+- [Fancybox](https://github.com/fancyapps/fancybox) jQuery lightbox gallery
 
 ## Getting Started
 
@@ -57,14 +58,16 @@ Our recommendations for options on the "Create a new repository" page:
 ## Folder Structure
 
 The folders you will primarily use are:
-- `docs`, which is for documentation
-- `items`, which is where your transcriptions will go when they are ready to publish. You will copy your ready-to-publish Markdown-encoded documents (`.md`) here manually; if you are working with TEI (`.xml`) files, they will be moved here by the Jekyll framework when they are transformed. **NOTE TO DOCUMENTERS: CHECK THIS ONCE TEI TRANSFORMAQTION SCRIPT IS FINISHED.**
+- `docs`, which is for documentation.
+- `items`, which is where your transcriptions will go when they are ready to publish. You will copy your ready-to-publish Markdown-encoded documents (`.md`) here manually.
   - If you are working with multiple genres, use the subfolders in `items` to organize your files by genre. The sample files in the template are organized by `books`, `periodicals`, and `poems`.
 - `source`, which is where you'll store the following:
   - The `drafts` folder can be (re)organized to your liking. We recommending organizing them by file type (e.g. `markdown` or `tei`). In this sample template, we've also organized the Markdown drafts by genre. Both are optional.
-  - The `tei` folder is where you will place your ready-to-publish TEI-encoded documents (`.xml`). Jekyll will run a script that transforms all files in this folder, copy them to the `items` folder, and publish them on the website. **NOTE TO DOCUMENTERS: CHECK THIS ONCE TEI TRANSFORMAQTION SCRIPT IS FINISHED.**
+  - The `tei` folder is where you will place your ready-to-publish TEI-encoded documents (`.xml`). 
+  - The `source` folder also contains a Ruby script named `tei_to_md.rb`, which you can run locally to programmatically create Markdown files that correspond to your TEI files. You may also create the Markdown files by hand based on the examples in the `_texts` folder (see below).
+- `_texts`, which is the folder that will hold the Markdown files that correspond to your TEI files. You can create these files using the `tei_to_md.rb` script included in the `source` folder, if you have Ruby installed on your computer. You can also create the files manually.
 - `items`, which is where your transcriptions will end up when they are published.
-- If you have images to display on your site, you can use the `assets/images` folder to organize them. The home page banner image that the template uses is `assets/images/recovery-hub-banner.jpg.` To replace it with a custom banner image, follow the instructions under [Configuring your digital edition](https://recoveryhub.github.io/edition_base/docs/config).
+- If you have images to display on your site, you can use the `assets/images` folder to organize them. The home page banner image that the template uses is `assets/images/recovery-hub-banner.jpg.` To replace it with a custom banner image, follow the instructions under [Configuring your digital edition](https://recoveryhub.github.io/edition_template/docs/config).
 
 Folders beginning with an underscore (`_includes`, `_layouts`, etc.) contain the 
 files for the Jekyll site and theme. 
@@ -75,7 +78,7 @@ files for the Jekyll site and theme.
 
 For detailed documentation on transcribing sources, organizing files, and 
 readying your edition for publishing online, see our 
-[Transcription tutorial](https://recoveryhub.github.io/edition_base/docs/transcription).
+[Transcription tutorial](https://recoveryhub.github.io/edition_template/docs/transcription).
 
 
 ## Configuring your site
@@ -84,7 +87,7 @@ This template facilitates customizations through the site's `_config.yml` file.
 The `_config.yml` file contains settings that affect your whole site. 
 Most are settings you are expected to set up once and rarely edit after that. 
 A detailed guide to the settings and options in this file can be found in our 
-[Configuring your site](https://recoveryhub.github.io/edition_base/docs/config) 
+[Configuring your site](https://recoveryhub.github.io/edition_template/docs/config) 
 tutorial.
 
 ## Publishing your site with GitHub Pages
@@ -92,7 +95,7 @@ tutorial.
 To publish, enable GitHub Pages by going to your repository's settings, 
 clicking "Pages" in the left sidebar, choosing your branch as the source, and 
 clicking save. Step-by-step instructions are available in GitHub's official documentation, 
-[Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Once your site is  published, the URL will be visible under "About" when you view 
+[Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Publication may take a couple of minutes. Once your site is published, the URL will be visible under "About" when you view 
 your repository on GitHub.
 
 **Your repository must be public before it can be published with GitHub Pages.** 
