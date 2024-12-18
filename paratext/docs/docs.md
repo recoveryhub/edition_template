@@ -3,6 +3,7 @@ layout: default
 title: Documentation
 permalink: docs
 docs_number: 1
+category: documentation
 ---
 
 # Recovery Hub Digital Edition Template

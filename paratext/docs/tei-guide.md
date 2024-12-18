@@ -2,7 +2,8 @@
 layout: default
 title: TEI Guide
 permalink: docs/tei
-docs_number: 4
+docs_number: 5
+category: documentation
 ---
 
 # TEI Guide

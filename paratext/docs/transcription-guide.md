@@ -3,6 +3,7 @@ layout: default
 title: Transcription Guide
 permalink: docs/transcription
 docs_number: 3
+category: documentation
 ---
 
 # Transcription Guide
