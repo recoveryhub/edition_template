@@ -65,12 +65,11 @@ The folders you will primarily use are:
 - `source`, which is where you'll store the following:
   - The `drafts` folder can be (re)organized to your liking. We recommending organizing them by file type (e.g. `markdown` or `tei`). In this sample template, we've also organized the Markdown drafts by genre. Both are optional.
   - The `tei` folder is where you will place your ready-to-publish TEI-encoded documents (`.xml`). 
-  - The `source` folder also contains a Ruby script named `tei_to_md.rb`, which you can run locally to programmatically create Markdown files that correspond to your TEI files. You may also create the Markdown files by hand based on the examples in the `_texts` folder (see the [TEI Guide](https://recoveryhub.github.io/edition_template/docs/config)).
-- `_texts`, which is the folder that will hold the Markdown files that correspond to your TEI files. You can create these files using the `tei_to_md.rb` script included in the `source` folder, if you have Ruby installed on your computer. You can also create the files manually.
-- `items`, which is where your transcriptions will end up when they are published.
+  - The `source` folder also contains a Ruby script named `tei_to_md.rb`, which you can run locally to create Markdown files that correspond to your TEI files. You may also create the Markdown files by hand based on the examples in the `_texts` folder (see the [TEI Guide](https://recoveryhub.github.io/edition_template/docs/config)).
+- `_texts`, which is the folder that will hold the Markdown files that correspond to your TEI files. 
 - If you have images to display on your site, you can use the `assets/images` folder to organize them. The home page banner image that the template uses is `assets/images/recovery-hub-banner.jpg.` To replace it with a custom banner image, follow the instructions under [Configuring your digital edition](https://recoveryhub.github.io/edition_template/docs/config).
 
-Folders beginning with an underscore (`_includes`, `_layouts`, etc.) contain the 
+Other folders beginning with an underscore (`_includes`, `_layouts`, etc.) contain the 
 files for the Jekyll site and theme. 
 
 
