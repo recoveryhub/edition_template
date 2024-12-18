@@ -3,6 +3,7 @@ layout: default
 title: Markdown Guide
 permalink: docs/markdown
 docs_number: 4
+category: documentation
 ---
 
 # Markdown Guide

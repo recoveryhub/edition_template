@@ -180,7 +180,8 @@ category_list: [
   "periodicals", 
   "essays", 
   "poems", 
-  "documentation"
+  "documentation",
+  "correspondence"
   ]
 
 defaults:
@@ -215,6 +216,12 @@ defaults:
     values:
       layout: default
       category: poems
+# Text (TEI)
+  - scope:
+      path: "_texts"
+      type: texts
+    values:
+      layout: tei
 # Paratext (Introduction, Essays, Documentation)
   - scope:
       path: "essays"
@@ -231,7 +238,8 @@ defaults:
 
 # To use Jekyll collections, set them up here:
 collections: 
-  - items
+  texts:
+    output: true
 
 
 
