@@ -3,13 +3,17 @@ layout: poem
 title: Poem
 permalink: poem
 
-# Source description
+# Metadata
+
+## Source description
 author: 
 poem_title: Sample poem
 publication_title: 
 publisher: 
 publication_place:  
 publication_date: unknown 
+
+## Encoding Description (info about the editing and encoding of this digital file)
 
 ### Annotators
 annotations_by: 
@@ -28,7 +32,9 @@ file_edited_by:
 # Poetry Samples
 
 For instructions on how this digital edition template uses Markdown, Jekyll 
-layouts, and CSS to format poetry, refer to the [Poetry formatting in Markdown](https://recoveryhub.github.io/docs/markdown) section of our documentation.
+layouts, and CSS to format poetry, refer to the 
+[Poetry formatting in Markdown](https://recoveryhub.github.io/docs/markdown) 
+section of our documentation.
 
 ## Sample poetry excerpt from "Songs for the People" by Frances Ellen Watkins Harper
 
