@@ -3,6 +3,7 @@ layout: default
 title: Transcription Guide
 permalink: docs/transcription
 docs_number: 3
+category: documentation
 ---
 
 # Transcription Guide
@@ -56,3 +57,7 @@ In order to add this, you will either need to define it in the frontmatter of ea
 - `published_date:` (look to see how this would work)
 
 TODO: figure out other metadata that would need to be added to make different doc types save correctly in zotero, etc.
+
+## TEI/XML
+
+If you would like to work with files encoded according to the [Text Encoding Initiative Guidelines](https://tei-c.org/guidelines/), check out the [TEI Guide](https://recoveryhub.github.io/edition_template/docs/config).
