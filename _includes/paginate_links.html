@@ -22,6 +22,13 @@
       {% if page.book_title and page.chapter_number %}
       <span class="separator">|</span>
       {% endif %}
+
+    {% elsif page.title %}
+      {% assign this_category = page.title | capitalize %}
+     {% if this_category != page.title %}
+        {% if page.category == "documentation" %}<a href="{{ page.category | relative_url }}">{{ page.category | capitalize }}</a> | {% else %}{{ this_category }} | {% endif %}
+     {{ page.title }}
+     {% endif %}
     {% endif %}
     {% if page.chapter_number %}
       <span class="chapter-title">Chapter {{ page.chapter_number }}</span>{% endif %}{% if page.chapter_number and page.chapter_title %}: {% endif %}{% if page.chapter_title %}<span class="chapter-title">{{ page.chapter_title }}</span>
