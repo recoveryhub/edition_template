@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: paginate
 title: Transcription Guide
-permalink: docs/transcription
-docs_number: 3
+permalink: documentation/transcription
 category: documentation
 ---
 
@@ -39,11 +38,11 @@ No OCR tool is perfect, and the best tool for your purposes will vary a lot on t
 
 ### Transcribing and Editing Files Using GitHub
 
-GitHub is great for file storage because of its versioning capabilities. But did you know that GitHub has a built-in file editor you can use right in your browser, as well? [GitHub's web-based editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor#opening-the-githubdev-editor) allows you to edit files and commit changes to your repository without having to install additional software or learn command line tools.
+GitHub is great for file storage because of its versioning capabilities. But did you know that GitHub has a built-in file editor you can use right in your browser, as well? [GitHub's web-based editor](https://documentation.github.com/en/codespaces/the-githubdev-web-based-editor#opening-the-githubdev-editor) allows you to edit files and commit changes to your repository without having to install additional software or learn command line tools.
 
 You can open the editor any time you are viewing your repository by pressing `.` (or `>` to open it in a new broser tab).
 
-If you want to pull, edit, commit, and push files using your computer, you can install [GitHub Desktop](https://desktop.github.com/download/) on your computer and learn how to use it from the official [GitHub Desktop documentation](https://docs.github.com/en/desktop). You can also just use plain ol' reliable git, if you prefer.
+If you want to pull, edit, commit, and push files using your computer, you can install [GitHub Desktop](https://desktop.github.com/download/) on your computer and learn how to use it from the official [GitHub Desktop documentation](https://documentation.github.com/en/desktop). You can also just use plain ol' reliable git, if you prefer.
 
 ### Metadata
 
@@ -60,4 +59,4 @@ TODO: figure out other metadata that would need to be added to make different do
 
 ## TEI/XML
 
-If you would like to work with files encoded according to the [Text Encoding Initiative Guidelines](https://tei-c.org/guidelines/), check out the [TEI Guide](https://recoveryhub.github.io/edition_template/docs/config).
+If you would like to work with files encoded according to the [Text Encoding Initiative Guidelines](https://tei-c.org/guidelines/), check out the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/site-config).

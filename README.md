@@ -29,25 +29,25 @@ of digital content. To learn more, visit the
 
 ## Getting Started
 
-[In-depth tutorials](https://recoveryhub.github.io/edition_template/docs) 
+[In-depth tutorials](https://recoveryhub.github.io/edition_template/documentation) 
 are available on our example site and in the files of this template.
 
 To get started with your own edition, click the "Use this template" button 
 above to make a copy on your own GitHub account. For detailed instructions, 
-see [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub's official documentation.
+see [Creating a repository from a template](https://documentation.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub's official documentation.
 
 Our recommendations for options on the "Create a new repository" page:
 - Leave **Include all branches** unchecked. You won't need all the edition_base branches, just the default one.
 - For **Owner**, it's okay to leave your personal account selected unless this edition should belong to a GitHub organization; if the latter, change **Owner** to your organization.
 - Your **Repository name** should be short but memorable. The name cannot contain spaces, so we recommend using underscores (for example, `baker_digital_edition`).
 - The **Description** is optional. You can always add or change it later.
-- Whether your repository starts out as **Public** or **Private** is up to you. Either way, people will not be able to make changes without your approval. If the repository is **Private**, only people you add as members will be able to see that it exists (to learn how to add members, see [Inviting Collaborators to a personal repository](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) in GitHub's documentation). Many people prefer to make their repository **Private** initially; just be aware that you will have to go into your settings later and change your repository to **Public** before you can publish your edition with GitHub pages.
+- Whether your repository starts out as **Public** or **Private** is up to you. Either way, people will not be able to make changes without your approval. If the repository is **Private**, only people you add as members will be able to see that it exists (to learn how to add members, see [Inviting Collaborators to a personal repository](https://documentation.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) in GitHub's documentation). Many people prefer to make their repository **Private** initially; just be aware that you will have to go into your settings later and change your repository to **Public** before you can publish your edition with GitHub pages.
 
 ## Transcription and editing
 
 For detailed documentation on transcribing sources, organizing files, and 
 readying your edition for publishing online, see our 
-[Transcription Tutorial](https://recoveryhub.github.io/edition_base/docs/transcription).
+[Transcription Tutorial](https://recoveryhub.github.io/edition_base/documentation/transcription).
 
 ### Page title or heading 1 is required for publishing
 
@@ -61,7 +61,7 @@ This template facilitates customizations through the site's `_config.yml` file.
 The `_config.yml` file contains settings that affect your whole site. 
 Most are settings you are expected to set up once and rarely edit after that. 
 A detailed guide to the settings and options in this file can be found in our 
-[Configuring your site](https://recoveryhub.github.io/edition_base/docs/config) 
+[Configuring your site](https://recoveryhub.github.io/edition_base/documentation/site-config) 
 tutorial.
 
 ## Publishing your site with GitHub Pages
@@ -69,12 +69,12 @@ tutorial.
 To publish, enable GitHub Pages by going to your repository's settings, 
 clicking "Pages" in the left sidebar, choosing your branch as the source, and 
 clicking save. Step-by-step instructions are available in GitHub's official documentation, 
-[Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Once your site is 
+[Configuring a publishing source for your GitHub Pages site](https://documentation.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Once your site is 
 published, the URL will be visible under "About" when you view 
 your repository on GitHub.
 
 **Your repository must be public before it can be published with GitHub Pages.** 
-If your repository is currently private, [change your repository's visibility](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) to public.
+If your repository is currently private, [change your repository's visibility](https://documentation.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) to public.
 
 In order for links to work, you will then need to change your `_config.yml` file 
 with the values of this new URL. 

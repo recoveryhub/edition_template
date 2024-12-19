@@ -1,13 +1,18 @@
 ---
-layout: default
+layout: paginate
 title: Site Configuration Guide
-permalink: docs/config
-docs_number: 2
+permalink: documentation/site-config
 category: documentation
 ---
 # Site Configuration Guide
 
-The Recovery Hub edition template facilitates customizations through the site’s `_config.yml` file. The `_config.yml` file contains settings that affect your whole site. Most are settings you are expected to set up once and rarely edit after that. Comments in the template `_config.yml` file should help to guide you in initial setup of that file. Below is some additional information about the `_config.yml` file. 
+The Recovery Hub digital edition template allows you to configure and customize
+your site through the `_config.yml` file. Most of the configuration settings in 
+that file are settings you are expected to set up once and rarely edit after that. 
+
+We have provided comments throughout `_config.yml` to explain what each setting 
+does, but the documentation on this page offers a more detailed walkthrough to 
+follow when you're setting up your site for the first time.
 
 ## Markdown Config
 

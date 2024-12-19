@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: paginate
 title: TEI Guide
-permalink: docs/tei
-docs_number: 5
+permalink: documentation/tei
 category: documentation
 ---
 

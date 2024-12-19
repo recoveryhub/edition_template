@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: paginate
 title: Markdown Guide
-permalink: docs/markdown
-docs_number: 4
+permalink: documentation/markdown
 category: documentation
 ---
 
@@ -83,11 +82,17 @@ This is my second paragraph. Because there's a blank line between them, they'll 
 
 ### [Headings](https://www.markdownguide.org/basic-syntax/#headings)
 
-All markdown files must have either a 
+All markdown files must have a 
 [Heading 1](https://www.markdownguide.org/basic-syntax/#headings) at the top of 
-the document, or must declare a `title:` in the frontmatter. (Note: if the file 
-has a `title:` in the frontmatter, it supercedes the Heading 1 and becomes the 
-HTML page `<title>`, but will not replace the Heading 1 on the page.)
+the document. This is standard practice for accessibility reasons; also, Jekyll 
+will use this as the HTML page `<title>`. 
+
+You can also declare a `title:` 
+in the frontmatter/metadata, which will supercede the Heading 1 and be used by 
+Jekyll for the HTML page `<title>`; it will not replace the Heading 1 on the 
+page., though.
+
+#### Use real headings, not bold text
 
 Page titles, section titles, and other headings must be formatted as actual 
 headings, *not as bold text*. Headings are essential for accessibility on the 

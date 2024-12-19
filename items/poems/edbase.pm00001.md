@@ -33,7 +33,7 @@ file_edited_by:
 
 For instructions on how this digital edition template uses Markdown, Jekyll 
 layouts, and CSS to format poetry, refer to the 
-[Poetry formatting in Markdown](https://recoveryhub.github.io/docs/markdown) 
+[Poetry formatting in Markdown](https://recoveryhub.github.io/documentation/markdown) 
 section of our documentation.
 
 ## Sample poetry excerpt from "Songs for the People" by Frances Ellen Watkins Harper
@@ -55,7 +55,7 @@ section of our documentation.
 
 This template uses custom Markdown-friendly CSS classes that are numbered 1-10, 
 with 1 being the smallest indent, and 10 being the largest. For more information,
-see [Poetry formatting in Markdown](https://recoveryhub.github.io/docs/markdown) 
+see [Poetry formatting in Markdown](https://recoveryhub.github.io/documentation/markdown) 
 in our documentation.
 
 Here is a comparison of the 10 different indent sizes:
