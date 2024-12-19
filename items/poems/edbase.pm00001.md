@@ -4,8 +4,8 @@ title: Poem
 permalink: poem
 
 # Source description
-author: Sara Teasdale
-poem_title: The Crystal Gazer
+author: 
+poem_title: Sample poem
 publication_title: 
 publisher: 
 publication_place:  
@@ -23,21 +23,26 @@ file_edited_by:
   - Person 1 # To add more editors, copy and paste this line
   # etc.
 
-## See documentation on poem layouts and indentation
-
 ---
 
-- I shall gather myself into myself again,
-- {:.indent-4} I shall take my scattered selves and make them one,
-- Fusing them into a polished crystal ball
-- {:.indent-4} Where I can see the moon and the flashing sun.
+# Poetry Samples
+
+For instructions on how this digital edition template uses Markdown, Jekyll 
+layouts, and CSS to format poetry, refer to the [Poetry formatting in Markdown](https://recoveryhub.github.io/docs/markdown) section of our documentation.
+
+## Sample poetry excerpt from "Songs for the People" by Frances Ellen Watkins Harper
+
+- Let me make the songs for the people,
+- {.indent-2} Songs for the old and young;
+- Songs to stir like a battle-cry
+- {.indent-2} Wherever they are sung.
 
 <!-- -->
 
-- I shall sit like a sibyl, hour after hour intent,
-- {:.indent-4} Watching the future come and the present go,
-- And the little shifting pictures of people rushing
-- {:.indent-4} In restless self-importance to and fro.
+- Not for the clashing of sabres,
+- {.indent-2} For carnage nor for strife;
+- But songs to thrill the hearts of men
+- {.indent-2} With more abundant life.
 
 
 ## Comparison of indent sizes
