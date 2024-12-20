@@ -25,3 +25,7 @@ Welcome to the Recovery Hub for American Women Writers’ template for text-base
 - Recovery Hub theme based on [Minima](https://github.com/jekyll/minima) version [2.5.1](https://github.com/jekyll/minima/releases/tag/v2.5.1)
 - [jQuery 3.7.1 slim build](https://jquery.com/download/)
 - [Fancybox](https://github.com/fancyapps/fancybox) jQuery lightbox gallery
+
+## Sample Pages
+
+[View all pages in this template](page-list), including example texts.
