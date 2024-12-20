@@ -34,13 +34,14 @@ teiFiles.each do |i|
 
 	# read in data as hash
 	data_hash = {
+		"layout" => "tei",
+		"category" => category.to_s,
 		"title" => title.to_s,
 		"document" => filename,
 		"author" => author.to_s,
 		"publication_title" => pubTitle,
 		"publication_date" => publication_date.to_s,
-		"pages" => pages.to_s,
-		"category" => category.to_s
+		"pages" => pages.to_s
 	}
 
 	# print values that exist to new md file
