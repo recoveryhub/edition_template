@@ -24,11 +24,14 @@ Sample files have been included as part of the template so that editors can see 
 
 After the TEI files are completed, they should be added to the edition within the `source/tei` folder. (The `source/drafts` folder may be used to house in-progress or draft TEI files.) The TEI files in `source/tei` will not display as part of the edition until their corresponding Markdown files are created (see below).
 
-## Markdown Files
+## Markdown Files in _texts
 
-In order to display as part of editions built with the Recovery Hub edition template, all TEI files will need corresponding Markdown files. These files will consist only of front matter that includes metadata drawn from the TEI. These files can be created manually and added to the `_texts` folder. The template also includes a Ruby script that can be used to create these files programmatically based on any TEI files included in `source/tei` (see "TEI to Markdown Transformation" instructions below). The Markdown files should be named to match the TEI files (e.g. `loc.00449.md` to match `loc.00449.xml`) and should include: 
+In order to display as part of editions built with the Recovery Hub edition template, all TEI files will need corresponding Markdown files. These files will consist only of front matter that includes metadata drawn from the TEI. These files can be created manually and added to the `_texts` folder, OR can be programmatically generated with the Ruby script in `source` that transforms TEI files to Markdown. 
+
+If you are manually creating Markdown files should be named to match the TEI files (e.g. `ed1.cr00002.md` to match `ed1.cr00002.xml`) and should include: 
+- `layout: tei`, which tells Jekyll to use the TEI layout template
 - `title`: drawn from the `<title>` within the `<titleStmt>` in the `<teiHeader>`
-- `document`: the TEI filename (e.g. `loc.00449.xml`)
+- `document`: the TEI filename (e.g. `ed1.cr00002.xml`)
 - `author`: drawn from the `<author>` within the `<titleStmt>` in the `<teiHeader>`
 - `publication_date`: drawn from the `<date>` within the `<bibl>` in the `<teiHeader>`
 - `category`: drawn from the `<catDesc>` within the `<encodingDesc>` in the `<teiHeader>`
@@ -54,4 +57,4 @@ Once Markdown files have been generated, the TEI files should display as part of
 
 ## Acknowledgements
 
-CETEIcean functionality was added to the Recovery Hub edition template with the help of a model GitHub Pages site constructed by Raffaele Viglianti. 
+[CETEIcean](https://github.com/TEIC/CETEIcean) functionality was added to the Recovery Hub edition template with the help of a model GitHub Pages site constructed by Raffaele Viglianti. 

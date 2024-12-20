@@ -321,4 +321,4 @@ line *between the bullet* (`-`) *and the text*, separated by spaces, like so:
 ```
 
 To see a comparison of the 10 different indent sizes, see this template's 
-[example poem in Markdown](https://recoveryhub.github.io/edition_template/edbase.pm00001.md).
+[example poem in Markdown](https://recoveryhub.github.io/edition_template/example.pm00001.md).

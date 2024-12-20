@@ -7,6 +7,8 @@ category: documentation
 
 # Getting Started
 
+## Create a GitHub account
+
 [GitHub](https://github.com/) is a free, open-access resource that stores files 
 that can run a website; it can also host that website thanks to a feature called 
 [GitHub pages](https://documentation.github.com/pages/). 
@@ -14,18 +16,54 @@ that can run a website; it can also host that website thanks to a feature called
 If you don't have a GitHub account, follow the instructions for 
 [Creating an account on GitHub](https://documentation.github.com/en/get-started/start-your-journey/creating-an-account-on-github).
 
-To get started with your own edition, click the "Use this template" button 
+## Create an edition based on this template
+
+To get started with your own edition, you'll create a GitHub repository for your 
+project based on this template. Click the "Use this template" button 
 above to make a copy on your own GitHub account. For detailed instructions, 
 see [Creating a repository from a template](https://documentation.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub's official documentation.
 
-Our recommendations for options on the "Create a new repository" page:
-- Leave **Include all branches** unchecked. You won't need all the edition_base branches, just the default one.
-- For **Owner**, it's okay to leave your personal account selected unless this edition should belong to a GitHub organization; if the latter, change **Owner** to your organization.
-- Your **Repository name** should be short but memorable. The name cannot contain spaces, so we recommend using underscores (for example, `your_edition`).
+### Recommended settings for the "Create a new repository" page
+- Leave **Include all branches** unchecked. You won't need all the edition_base 
+  branches, just the default one.
+- For **Owner**, it's okay to leave your personal account selected unless this 
+  edition should belong to a GitHub organization; if the latter, change 
+  **Owner** to your organization.
+- Your **Repository name** should be short but memorable. For naming guidelines, 
+  see the The name cannot contain spaces, so we recommend using underscores 
+  (for example, `your_edition`). See the [Naming Your Project]() section of this documentation 
 - The **Description** is optional. You can always add or change it later.
-- Whether your repository starts out as **Public** or **Private** is up to you. Either way, people will not be able to make changes without your approval. If the repository is **Private**, only people you add as members will be able to see that it exists (to learn how to add members, see [Inviting Collaborators to a personal repository](https://documentation.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) in GitHub's documentation). Many people prefer to make their repository **Private** initially; just be aware that you will have to go into your settings later and change your repository to **Public** before you can publish your edition with GitHub pages.
+- Whether your repository starts out as **Public** or **Private** is up to you. 
+  Either way, people will not be able to make changes without your approval. 
+  If the repository is **Private**, only people you add as members will be able 
+  to see that it exists (to learn how to add members, see 
+  [Inviting Collaborators to a personal repository](https://documentation.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) in GitHub's documentation). 
+  Many people prefer to make their repository **Private** initially; just be 
+  aware that you will have to go into your settings later and change your 
+  repository to **Public** before you can publish your edition with GitHub Pages.
 
-## Folder Structure
+## Naming Your Project
+
+Before you start using this template, decide on your project's long name, 
+short name, and a file prefix. 
+
+A project's **long name** is often the full edition title, e.g. 
+`Mary Johnson's The Wanderers: A Digital Edition`.
+
+A project's **short name** makes a great repository name (see the "Create a new 
+repository" recommendations) can only contain upper and lowercase letters, 
+underscores ( `_` ) and dashes ( `-` ). We recommend choosing two or three key 
+words from your edition's long name and using dashes where there would normally 
+be spaces, e.g. `johnston-wanderers`
+
+The **edition prefix** is the short set of letters or numbers at the beginning of each 
+file name. Ideally, the prefix should be 6 characters or less. It can be fairly 
+basic (e.g. `ed1` to indicate that it's your first edition), or it can reflect 
+your project name (e.g. the author's initials or an acronym based on your 
+project's short name). You'll use this every time you create and name a file 
+in your edition.
+
+## Folder structure
 
 The folders you will primarily use are:
 - `docs`, which is for documentation.
@@ -47,7 +85,6 @@ For detailed documentation on transcribing sources, organizing files, and
 readying your edition for publishing online, see our 
 [Transcription tutorial](https://recoveryhub.github.io/edition_template/documentation/transcription). 
 If you plan to use TEI in your edition, you may also link directly to the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/site-config).
-
 
 ## Configuring your site
 
