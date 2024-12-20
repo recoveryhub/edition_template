@@ -62,9 +62,9 @@ description: >-
 
 header_pages:  
   - "paratext/docs/documentation.md" # tutorial pages
-  - "items/books/edbase.bk00001.md" # example book
-  - "items/periodicals/edbase.per00001.md" # example periodical
-  - "items/poems/edbase.pm00001.md" # example poem
+  - "items/books/example.bk00001.md" # example book
+  - "items/periodicals/example.per00001.md" # example periodical
+  - "items/poems/example.pm00001.md" # example poem
   - "paratext/docs/all-pages.html" # list of all pages in this template
 
 
