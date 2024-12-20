@@ -61,7 +61,7 @@ description: >-
 # in the order you wish them to appear. 
 
 header_pages:  
-  - "paratext/documentation/1-documentation.md" # tutorial pages
+  - "paratext/docs/1-documentation.md" # tutorial pages
   - "items/books/example.bk00001.md" # example book
   - "items/periodicals/example.per00001.md" # example periodical
   - "items/poems/example.pm00001.md" # example poem
