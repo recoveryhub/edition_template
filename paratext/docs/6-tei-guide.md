@@ -58,3 +58,6 @@ Once Markdown files have been generated, the TEI files should display as part of
 ## Acknowledgements
 
 [CETEIcean](https://github.com/TEIC/CETEIcean) functionality was added to the Recovery Hub edition template with the help of a model GitHub Pages site constructed by Raffaele Viglianti. 
+
+## Notes
+- The book-with-chapters template and paginated template do not yet support TEI files. To use these 
