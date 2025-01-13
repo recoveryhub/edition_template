@@ -56,7 +56,7 @@ layout: default
   </details>
 </div>
 
-<!-- {% assign chapters_only = site.pages | where: "type", "chapter" | sort_natural: "chapter_number" | sort_natural: "title" %}-->
+
 
 <div class="chapter-list">
   <details open>
@@ -88,7 +88,7 @@ layout: default
 {{ content }}
 
 <div class="whole-book">
-  
+  {% assign chapters_only = site.pages | where: "type", "chapter" | sort_natural: "chapter_number" | sort_natural: "title" %}
   {% for chapter in chapters_only %}
   <div class="book-section">
     <p class="individual-chapter-link"><a href="{{ chapter.url | relative_url }}">View chapter &raquo;</a></p>
