@@ -35,17 +35,19 @@ works best. Then, you can go back and process the rest of your documents in a
 streamlined, standardized fashion.
 
 ### OCR tool comparison chart
-|  Tool | Free | Batch processing | Size limit | Instructions/guides | Example output (original doc here) |
+
+| Tool | Free | Batch processing | Size limit | Instructions/guides | Example output (from [example PDF](https://drive.google.com/file/d/1o4p-jGnzowTdDhv994lMvv6KtH-c8D1g/view?usp=drive_link)) |
 | ------- | ------- | ------- | ------- | ------- | ------- |
-| Adobe Export PDF online* | No | Yes |  | Official guide | ocr-adobeweb.docx |
-| newocr.com(checkbox for multi-column) | Yes | No |  | Homepage | ocr-newocr.dococr-newocr.txt (Plain text option) |
-| ABBYY FineReader PDF | No | ? | ? | Homepage | Requires signup |
-| Google Chrome (open file, select all and copy/paste) | Yes | No | - |  | ocr-chromecopy.docx |
-| Adobe Acrobat DC“Edit Text” function“Export as” function | No | Yes | - | (Separate functions)“Edit text”“Export as” | ocr-adobeedit.docxocr-adobeexport.docx |
-| Firefox (open file, select all and copy/paste) | Yes | No | - |  | ocr-firefoxcopy.docx |
-| Google Drive (web) | Yes | No | 2 MB | Official guide | ocr-googledrive.docx |
-| CopyFish |  |  |  | Copyfish docs |  |
-| Transkribus (handwriting) | Y+N |  | 500 credits | Homepage | Requires signup |
+| [Adobe Acrobat Export PDF](https://www.adobe.com/acrobat/export-pdf-online-pricing.html) (online service) | No | Yes | 100 MB | [Official guide](https://helpx.adobe.com/acrobat/web/share-review-and-export/export-and-print/export-pdf-overview.html) | [ocr-adobeweb.docx](https://docs.google.com/document/d/1MJ58mSEniJYqbAq6q995HFWjdXRMi0mt/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [newocr.com](https://www.newocr.com/) (PDF, JPG, PNG, & more) | Yes | No | None | [Homepage](https://www.newocr.com/) | [ocr-newocr.doc](https://docs.google.com/document/d/1WFVcZpVx15aIKjwADXru8acFd4fUs_YB/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) <br />[ocr-newocr.txt](https://drive.google.com/file/d/1xB6jqdmO9-HCvJTlR1izNaVEzzLYRCrc/view?usp=drive_link) |
+| [ABBYY FineReader PDF](https://pdf.abbyy.com/) | No | Yes | See [plans](https://pdf.abbyy.com/pricing/) | [User's Guide](https://support.abbyy.com/hc/en-us/articles/360006360039-FineReader-User-s-guides) | - |
+| [Google Chrome](https://www.google.com/chrome/) | Yes | No | N/A | Open PDF in Chrome, select all, and copy/paste | [ocr-chromecopy.docx](https://docs.google.com/document/d/13OKmiW0LTW0ZwTN-P2FQItKSPby9GFTB/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [Adobe Acrobat DC](https://www.adobe.com/acrobat.html) | No | Yes | None | 2 methods, [Edit text](https://helpx.adobe.com/acrobat/using/edit-text-pdfs.html) or [Export as](https://helpx.adobe.com/acrobat/using/pdf-to-word.html) | [ocr-adobeexport.docx](https://docs.google.com/document/d/1aHw45skBZnZV19VU8z8aMSbnulnB-3BX/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [Firefox](https://www.mozilla.org/en-US/firefox/) | Yes | No | N/A | Open PDF in Firefox, select all, and copy/paste | [ocr-firefoxcopy.docx](https://docs.google.com/document/d/11ImsYEHvCR3uBtf2JkEjrVJ6urUt2US7/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [Google Drive](https://drive.google.com/drive/) | Yes | No | 2 MB | [Official guide](https://support.google.com/drive/answer/176692?hl=en&co=GENIE.Platform%3DDesktop) | [ocr-googledrive.docx](https://docs.google.com/document/d/1Mh09dsKbwG7gVJkoIf6ckqR1B2g3OHTF/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [OCRSpace](https://ocr.space/) | Free and paid options | [API only](https://ocr.space/OCRAPI) | 5 MB (free option) | [Homepage](https://ocr.space/) | [ocr-ocrspace.txt](https://drive.google.com/file/d/1RqiSRwAmDir_-ZUW87vxBkMvqwSMN15-/view?usp=drive_link) |
+| [Transkribus](https://www.transkribus.org/) (OCR + handwriting recognition) | Free and paid options | Yes | See [plans](https://www.transkribus.org/plans) | [Homepage](https://readcoop.eu/transkribus/?sc=Transkribus) | - |
+
 
 ## File creation and naming
 
@@ -127,10 +129,9 @@ Information about encoding files in Markdown is available in our
 
 ## Transcribing Files in TEI
 
-Information about encoding files in TEI is available in our 
-[TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei).
+If you would like to work with files encoded according to the [Text Encoding Initiative Guidelines](https://tei-c.org/guidelines/), check out the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei).
 
-### Transcribing and Editing Files Using GitHub
+## Transcribing and Editing Files Using GitHub
 
 GitHub is great for file storage because of its versioning capabilities. But 
 did you know that GitHub has a built-in file editor you can use right in your 
