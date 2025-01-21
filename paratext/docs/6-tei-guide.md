@@ -26,12 +26,12 @@ After the TEI files are completed, they should be added to the edition within th
 
 ## Markdown Files in _texts
 
-In order to display as part of editions built with the Recovery Hub edition template, all TEI files will need corresponding Markdown files. These files will consist only of front matter that includes metadata drawn from the TEI. These files can be created manually and added to the `_texts` folder, OR can be programmatically generated with the Ruby script in `source` that transforms TEI files to Markdown. 
+In order to display as part of editions built with the Recovery Hub edition template, all TEI files will need corresponding Markdown files. These files will consist only of front matter that includes metadata drawn from the TEI. These files can be created manually and added to the `_texts` folder, OR they can be programmatically generated with the Ruby script in `source` that transforms TEI files to Markdown. 
 
-If you are manually creating Markdown files should be named to match the TEI files (e.g. `ed1.cr00002.md` to match `ed1.cr00002.xml`) and should include: 
+If you are manually creating Markdown files, they should be named to match the TEI files (e.g. `edbase.tei00001.md` to match `edbase.tei00001.xml`) and should include: 
 - `layout: tei`, which tells Jekyll to use the TEI layout template
 - `title`: drawn from the `<title>` within the `<titleStmt>` in the `<teiHeader>`
-- `document`: the TEI filename (e.g. `ed1.cr00002.xml`)
+- `document`: the TEI filename (e.g. `edbase.tei00001.xml`)
 - `author`: drawn from the `<author>` within the `<titleStmt>` in the `<teiHeader>`
 - `publication_date`: drawn from the `<date>` within the `<bibl>` in the `<teiHeader>`
 - `category`: drawn from the `<catDesc>` within the `<encodingDesc>` in the `<teiHeader>`
@@ -45,6 +45,7 @@ If you would like to try your hand at generating the Markdown files programmatic
 - `Download the repository files`: Go to the GitHub page of the repository associated with your edition. Click the green button "Code" and select "Download ZIP". Uncompress the ZIP file. 
 - `Locate the script`: Using Terminal (for Mac users) or something like Putty (for PC users), navigate to the files you have downloaded and find your way to the `source/tei` folder. 
 - `Install Ruby`: In order to run the script, you will need to install Ruby. The process for doing that will vary depending on the type of computer you are using. For a complete list of options, see [Installing Ruby](https://www.ruby-lang.org/en/documentation/installation/). For Mac users working with Homebrew, an easy option is `brew install ruby`. 
+- `Install Nokogiri`: You will also need the Ruby gem Nokogiri to work with XML. For a description of how to install Nokogiri, see [Installing Nokogiri](https://nokogiri.org/#installation).
 - `Run the script`: Ensure your TEI files have been added to `source/tei`. On the command line, from within the `source` folder, enter `ruby tei_to_md.rb`. 
 - `Check your files`: Confirm Markdown files appear in the `_texts` folder and that the front matter appears as expected. 
 - `Upload files to GitHub`: Upload your Markdown files to the `_texts` folder on GitHub.
