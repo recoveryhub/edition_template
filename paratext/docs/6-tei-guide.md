@@ -33,7 +33,7 @@ If you are manually creating Markdown files, they should be named to match the T
 - `title`: drawn from the `<title>` within the `<titleStmt>` in the `<teiHeader>`
 - `document`: the TEI filename (e.g. `edbase.tei00001.xml`)
 - `author`: drawn from the `<author>` within the `<titleStmt>` in the `<teiHeader>`
-- `publication_date`: drawn from the `<date>` within the `<bibl>` in the `<teiHeader>`
+- `date_display`: drawn from the `<date>` within the `<bibl>` in the `<teiHeader>`
 - `category`: drawn from the `<catDesc>` within the `<encodingDesc>` in the `<teiHeader>`
 
 See the sample files within `_texts` and `source/tei` for reference.

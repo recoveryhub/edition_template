@@ -27,12 +27,12 @@ layout: default
         {% if page.publication_place %}
           <li><strong>Place of publication</strong>: {{ page.publication_place }}</li>
         {% endif %}
-        {% if page.publication_date %}
-          <li><strong>Date of publication</strong>: 
-            {% if page.publication_date.size %} {% comment %} Tests if date is in format other than YYYY-MM-DD {% endcomment %}
-              {{ page.publication_date }}
+        {% if page.date_display %}
+          <li><strong>Date</strong>: 
+            {% if page.date_display.size %} {% comment %} Tests if date is in format other than YYYY-MM-DD {% endcomment %}
+              {{ page.date_display }}
             {% else %}
-              {{ page.publication_date | date: "%B %e, %Y" }}
+              {{ page.date_display | date_display: "%B %e, %Y" }}
             {% endif %}
           </li>
         {% endif %}
