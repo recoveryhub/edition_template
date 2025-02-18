@@ -111,6 +111,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
 }
 
+.post-content h2 {
+  font-size: 28px;
+}
+
+.post-content h3 {
+  font-size: 26px;
+}
+
 h2, h3, h4, h5, h6 {
   margin-top: $spacing-unit;
 }
@@ -447,30 +455,34 @@ a.grayed-out {
   color: #777;
 }
 
-.pagination-links {
-  display: flex;
-  gap: $spacing-unit / 2;
-  justify-content: space-between;
-  margin-bottom: $spacing-unit;
-  width: 100%;
+.layout_paginate {
 
-  .book-title {
-    margin-right: 4px;
-  }
+  .pagination-links {
+    display: flex;
+    gap: $spacing-unit / 2;
+    justify-content: space-between;
+    margin-bottom: $spacing-unit;
+    width: 100%;
   
-  .separator {
-    margin-right: 4px;
+    .book-title {
+      margin-right: 4px;
+    }
+    
+    .separator {
+      margin-right: 4px;
+    }
   }
+
+  article.chapter .post-content {
+    border-top: 1px solid $recovery-hub-silver-dark;
+    border-bottom: 1px solid $recovery-hub-silver-dark;
+    padding-top: $spacing-unit;
+  
+    h1 {
+      font-size: 32px;
+    }
 }
 
-article.chapter .post-content {
-  border-top: 1px solid $recovery-hub-silver-dark;
-  border-bottom: 1px solid $recovery-hub-silver-dark;
-  padding-top: $spacing-unit;
-
-  h1 {
-    font-size: 32px;
-  }
 }
 
 
@@ -719,14 +731,9 @@ details .details-content {
 
 /* Whole book page */
 
-.whole-book .book-section {
+.whole-book .book-chapter {
   border-top: 1px solid rgb(220,220,220);
-  margin-top: 8rem;
-  padding-top: 8rem;
-}
-
-.whole-book .book-section:first-of-type {
-  margin-top: 3rem;
+  margin-top: 4rem;
   padding-top: 3rem;
 }
 

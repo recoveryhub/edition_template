@@ -56,7 +56,6 @@ layout: default
   </details>
 </div>
 
-<!-- {% assign chapters_only = site.pages | where: "type", "chapter" | sort_natural: "chapter_number" | sort_natural: "title" %}-->
 
 <div class="chapter-list">
   <details open>
@@ -67,7 +66,8 @@ layout: default
       <ul>
         <!-- Get files in items > books whose book_title match this file's book_title -->
         {% assign this_book = page.book_title %}
-        {% assign this_book_only_chapters = site.pages | where_exp: "page", "page.book_title == this_book" | group_by: "chapter_number" %}
+        {% assign chapters = site.pages | where_exp: "page", "page.type == 'chapter'" %}
+        {% assign this_book_only_chapters = chapters | where_exp: "page", "page.book_title == this_book" | group_by: "chapter_number" %}
         {% assign sorted_by_number = this_book_only_chapters | sort: "name" %}
         {% for chapter_by_number in sorted_by_number %}
           {% assign sorted_by_number_and_title = chapter_by_number.items | sort: "title" %}
@@ -88,9 +88,12 @@ layout: default
 {{ content }}
 
 <div class="whole-book">
-  
-  {% for chapter in chapters_only %}
-  <div class="book-section">
+  {% assign this_book_title = page.book_title %}
+  {% assign page_type = page.type %}
+  {% assign chapters_only = site.pages | where_exp: "page", "page.type == 'chapter'" %}
+  {% assign chapters_this_book_only = chapters_only | where_exp: "page", "page.book_title == this_book_title" | sort: "chapter_number" %}
+    {% for chapter in chapters_this_book_only %}
+  <div class="book-chapter">
     <p class="individual-chapter-link"><a href="{{ chapter.url | relative_url }}">View chapter &raquo;</a></p>
     {{ chapter.content | markdownify }}
   </div>
