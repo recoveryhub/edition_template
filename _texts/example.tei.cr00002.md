@@ -2,7 +2,7 @@
 layout: tei
 category: correspondence
 title: Anne Burrows Gilchrist to Walt Whitman, 12 April 1872
-document: edbase.tei00002.xml
+document: example.tei00002.xml
 author: Gilchrist, Anne Burrows (1828–1885)
 date_display: April 12, 1872
 ---
