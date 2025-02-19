@@ -76,6 +76,7 @@ to publish. You will copy your ready-to-publish Markdown-encoded documents (`.md
   
 - `source`, which is where you'll store the following:
   - The `drafts` folder, which is can be (re)organized to your liking. We recommending organizing them by file type (e.g. `markdown` or `tei`) as they are in this sample.
+    - Included in the `drafts/markdown` folder are blank sample files for each of the built-in genres (books, periodicals, and poems), with all the hard-coded metadata fields included and not yet filled in.
   - The `tei` folder is where you will place your ready-to-publish TEI-encoded documents (`.xml`). 
   - The `source` folder also contains a Ruby script named `tei_to_md.rb`, which you can run locally to create Markdown files that correspond to your TEI files. You may also create the Markdown files by hand based on the examples in the `_texts` folder (see the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei)).
 - `_texts`, which is the folder that will hold the Markdown files that correspond to your TEI files. 
