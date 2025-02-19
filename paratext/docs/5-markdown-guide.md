@@ -2,7 +2,6 @@
 layout: paginate
 title: Markdown Guide
 permalink: documentation/markdown
-category: documentation
 ---
 
 # Markdown Guide

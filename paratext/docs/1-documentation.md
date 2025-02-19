@@ -2,8 +2,6 @@
 layout: paginate
 title: Documentation
 permalink: documentation
-docs_number: 1
-category: documentation
 ---
 
 # Recovery Hub Digital Edition Template

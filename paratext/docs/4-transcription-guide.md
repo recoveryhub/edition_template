@@ -2,7 +2,6 @@
 layout: paginate
 title: Transcription Guide
 permalink: documentation/transcription
-category: documentation
 ---
 
 # Transcription Guide

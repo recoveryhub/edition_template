@@ -2,7 +2,6 @@
 layout: paginate
 title: Setting up your edition
 permalink: documentation/setup
-category: documentation
 ---
 
 # Setting up your edition
