@@ -1,11 +1,11 @@
 ---
 layout: poem
-title: Poetry Samples
+title: Example Poem
 permalink: poems/example-poem
 
 # Source Metadata
 author: 
-poem_title: Sample poem
+poem_title: Example Poem
 publication_title: 
 publisher: 
 publication_place:  
@@ -24,11 +24,11 @@ file_edited_by:
   - Person 2
 ---
 
-# Poetry Samples
+# Example Poem and Indentation
 
 For instructions on how this digital edition template uses Markdown, Jekyll 
 layouts, and CSS to format poetry, refer to the 
-[Poetry formatting in Markdown](https://recoveryhub.github.io/documentation/markdown) 
+[Poetry formatting in Markdown](https://recoveryhub.github.io/edition_template/documentation/markdown) 
 section of our documentation.
 
 ## Sample poetry excerpt from "Songs for the People" by Frances Ellen Watkins Harper
