@@ -17,7 +17,7 @@ teiFiles.each do |i|
 	publication_a_title = doc.xpath("//xmlns:sourceDesc//xmlns:bibl[1]//xmlns:title[@level='a']/text()")
 	publication_j_title = doc.xpath("//xmlns:sourceDesc//xmlns:bibl[1]//xmlns:title[@level='j']/text()")
 	publication_m_title = doc.xpath("//xmlns:sourceDesc//xmlns:bibl[1]//xmlns:title[@level='m']/text()")
-	publication_date = doc.xpath("//xmlns:sourceDesc//xmlns:date/text()")
+	date_display = doc.xpath("//xmlns:sourceDesc//xmlns:date/text()")
 	pages = doc.xpath("//xmlns:sourceDesc//xmlns:biblScope[@unit='pages']/text()")
 	category_name = doc.xpath("//xmlns:encodingDesc//xmlns:catDesc[1]/text()")
 
@@ -40,7 +40,7 @@ teiFiles.each do |i|
 		"document" => filename,
 		"author" => author.to_s,
 		"publication_title" => pubTitle,
-		"publication_date" => publication_date.to_s,
+		"date_display" => date_display.to_s,
 		"pages" => pages.to_s
 	}
 
