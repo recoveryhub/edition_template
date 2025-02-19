@@ -1,11 +1,12 @@
 ---
-layout: periodical
-title: Periodical
-permalink: periodical
+layout: paginate
+title: Example Periodical
+permalink: periodicals/example-periodical
 
 # Metadata
+category: periodicals
 
-## Source Description
+## Source Metadata
 author: Mary Johnston
 article_title: The Status of Woman
 publication_title: The Times Dispatch
@@ -13,19 +14,16 @@ publication_place: Richmond, VA
 publication_date: 1909-12-12
 pages: 4+3
 
-## Encoding Description (info about the editing and encoding of this digital file)
+# Edition Metadata
 
-### Annotators
-annotations_by: 
-  - Person 1 # To add more people, copy and paste this line
-  # etc.
+# Contributors
+contributors: 
+  - Person 1
+  - Person 2
 
-### Editors
-# Note: the editor of the whole edition/site is set in _config.yml. 
-# If file_edited_by is filled in below, it will override the editor listed in _config.yml.
+# Editors
 file_edited_by: 
-  - Person 1 # To add more editors, copy and paste this line
-  # etc.
+  - Person 1 
 
 ---
 
@@ -78,18 +76,19 @@ The savage grew educated, a knight and a gentleman. The club was shaved down to 
 She has a soul and she is a person.  She is the mother of humankind.  She made the first home and reared the first child, and she will make the last home and rear the last child.  ln her long history, begun in some dark point of time and place, continued through weeping and bitterness and fragmentary joys, ready now to sweep onward upon a wider wing, with a journey before her wondrous in itself and leading to ends beyond all wonder, a dispute of the momentary present as to which is in order in dealing with her, further "generosity," which is a gift, or justice, which is a recognition—in her long history, to-day's dispute is but an incident, a battle over which her future students may spend some study.  She knows it is such, and having been patient a long while, she can be patient yet longer. But I think what chiefly angers the old cave-mother is that most vain and shallow imagination of her sons, or of her daughters when their brothers have whispered it to them, that the battle which she flights for a loftier-roofed home and for a family more worth the raising will, in some occult fashion, destroy her interest in either.  It is purely a masculine fear. The drone in the hive might say as much to the queen bee—but I don't like to think of the fate of the drone. 
 
 I have seen in an asylum for the insane a gray-haired woman pacing off her cell for an imaginary carpet, stroking down imaginary curtains, placing imaginary chairs and tables, and then standing off to look at her work—so pleased, so pleased!  Upon her iron bed lay a doll. She listened, said that the baby was awake, took up the doll and put it to her breast. In Webster's "Duchess of Malfi," the two brothers send executioners first to terrify the duchess, and then to strangle her.  After a pageantry of horror they seize her. She says: 
+
 > "Farewell, Cariola . . . I pray thee look thou giv'st my little boy
->Some syrup for his cold . . . and let the girl
->Say her prayers ere she sleep"—
+> Some syrup for his cold . . . and let the girl
+> Say her prayers ere she sleep"—
+
 and dies.  
 
 When the ruling passion so holds in death and madness it may be trusted to rule through life. The stone upon the head is not necessary to the cave-mother.  Without it she will yet make the home and bear the human race.  Indeed, she thinks that, upon the whole, she can do her work better without that load.  In defense of her brood she has fought many a beast in many a poisonous Jungle. She will not be long afraid of clean, direct and scientific warfare against the forces of sloth, prejudice and babe-like social ignorance, which now invade her "home" and destroy her "family." 
 
-##Footnotes
+## Footnotes
 
-[^ref1]: Soon after her commitment to the cause of suffrage, Johnston submitted what we would characterize as an op-ed to the the Richmond Times-Dispatch, Sunday edition. This essay argues against the claim that if granted equal suffrage, women would abandon their roles as wives and mothers.  She does so be providing an evolutionary and global overview of womanhood that previews the plot and structure of *The Wanderers*, published seven years later.  
-[^ref2]: Chronicling America: Historic American Newspapers. Lib. of Congress.  [https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-28/](https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-28/)
- and [https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-27/](https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-27/). 
+[^ref1]: Soon after her commitment to the cause of suffrage, Johnston submitted what we would characterize as an op-ed to the the Richmond Times-Dispatch, Sunday edition. This essay argues against the claim that if granted equal suffrage, women would abandon their roles as wives and mothers.  She does so be providing an evolutionary and global overview of womanhood that previews the plot and structure of *The Wanderers*, published seven years later.
+[^ref2]: *Chronicling America: Historic American Newspapers*. Lib. of Congress.  The Times Dispatch, December 12, 1909, [Page 3](https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-27/) and [Page 4](https://chroniclingamerica.loc.gov/lccn/sn85038615/1909-12-12/ed-1/seq-28/).
 [^ref3]: Prehistoric era treated in chapter 1 of *The Wanderers*.
 [^ref4]: Prehistoric era treated in chapter 2 of *The Wanderers*.
 [^ref5]: Prehistoric eras treated in chapters 3-5 of *The Wanderers*.
