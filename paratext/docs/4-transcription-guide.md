@@ -113,7 +113,7 @@ every genre. In that case, you might have filenames like `ed1.cr00004.xml` and
 
 ### TEI files
 
-The example TEI/XML files in this template include `tei` in the filename. This is helpful, as it will keep your TEI-transformed Markdown filenames distinct from any other Markdown files in your edition. You'll notice that we skip having a genre code (`bk`, etc.) in the TEI/XML filenames to reduce the length somewhat. What you choose to do is ultimately up to you.
+The example TEI/XML files in this template include `tei` in the filename. This is not required, but is particularly helpful if your edition uses both TEI and Markdown transcriptions, as it will make your TEI-transformed Markdown filenames more visually distinct from any other Markdown files (though they'll be in different folders, regardless).
 
 ### Why are there files in this template that don't fit the file naming scheme?
 
