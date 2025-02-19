@@ -118,3 +118,5 @@ To use this feature:
 1. Create a Markdown file for the book itself and use `layout: book` in the file frontmatter/metadata. If you wish to include paratext or an introduction to the book, include it in the body of this Markdown file. **Do not paste the chapters into this file.**
 2. Create separate Markdown files for each of the book's chapters and use `layout: paginate` in the file frontmatter/metadata.
 3. Enter **the same** `book_title` in the frontmatter/metadata for the book file and all of the separate chapters' files. The book layout searches for files where the `book_title` precisely match each other.
+
+This feature is optional. If you prefer a simpler, single-page approach, create a single file that uses `layout: book` and include all chapters in the body of that file.
