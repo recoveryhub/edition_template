@@ -54,43 +54,50 @@ ___
 ### [Paragraphs](https://www.markdownguide.org/basic-syntax/#paragraphs-1)
 
 Perhaps the most straightforward element in this list, paragraphs are formed 
-simply by separating ***two lines of text*** with a blank line. If you don't 
-have a blank line between the two paragraphs, they will be displayed as a single
+simply by separating them with a completely blank line. If you don't 
+have a blank line between two paragraphs, they will be displayed as a single
 paragraph (like the second paragraph in the example below).
 
-**Markdown:**
+#### Markdown example:
 
 ```
-This is my first paragraph.
+This is my first paragraph. Because there's a blank line between this paragraph and the next, they'll be displayed as two separate paragraphs. 
 
-This is my second paragraph. Because there's a blank line 
-between this paragraph and the previous paragraph, they'll 
-be displayed as two separate paragraphs. This paragraph has
-multiple lines of text with a single line breaks between 
-each, but because they're not separated by a blank line 
-(i.e.  two line breaks in a row), it will be displayed as 
-a solid paragraph with no line breaks. This helps you break 
-up long lines of Markdown that could otherwise extend
+This is my second paragraph. This paragraph has 
+multiple lines of text with a single line breaks 
+between each, but because they're not separated 
+by a blank line (i.e.  two line breaks in a row), 
+it will be displayed as a solid paragraph with 
+no line breaks. This helps you break up long 
+lines of Markdown that could otherwise extend 
 off your page of code.
 ```
 
-**Result:**
+#### HTML Result:
 
-This is my first paragraph.
+This is my first paragraph. Because there's a blank line between this paragraph and the next, they'll be displayed as two separate paragraphs. 
 
-This is my second paragraph. Because there's a blank line between them, they'll be displayed as two separate paragraphs.
+This is my second paragraph. This paragraph has 
+multiple lines of text with a single line breaks 
+between each, but because they're not separated 
+by a blank line (i.e.  two line breaks in a row), 
+it will be displayed as a solid paragraph with 
+no line breaks. This helps you break up long 
+lines of Markdown that could otherwise extend 
+off your page of code.
 
 ### [Headings](https://www.markdownguide.org/basic-syntax/#headings)
 
 All markdown files must have a 
 [Heading 1](https://www.markdownguide.org/basic-syntax/#headings) at the top of 
 the document. This is standard practice for accessibility reasons; also, Jekyll 
-will use this as the HTML page `<title>`. 
+will use this as the HTML page `<title>`, which is required in HTML documents 
+and shows up as the title of the tab in your browser. 
 
 You can also declare a `title:` 
-in the frontmatter/metadata, which will supercede the Heading 1 and be used by 
+in the [frontmatter/metadata](/edition_template/documentation/metadata), which will supercede the Heading 1 and be used by 
 Jekyll for the HTML page `<title>`; it will not replace the Heading 1 on the 
-page., though.
+page, though.
 
 #### Use real headings, not bold text
 
@@ -174,14 +181,14 @@ Consistency is good practice even for simple projects, however.
 To add a footnote within your text, add a caret and a **footnote ID** inside 
 square brackets. 
 
-**Markdown:**
+#### Markdown code:
 
 ```
 This is a paragraph with a footnote in it [^ch1-ref1]. I've chosen ch1-ref1 as the footnote ID.
 ```
 
 
-**Result:**
+#### HTML Result:
 
 This is a paragraph with a footnote in it[^ch1-ref-1]. I've chosen ch1-ref1 as the footnote ID.
 
@@ -249,8 +256,8 @@ template (`_layouts/poem.html`), and custom CSS styles for transcribing and
 displaying lines, stanzas, and indentation often used in poetry. 
 
 Unfortunately, as of December 2024, **this custom method only works in Markdown 
-files that are using the poem layout** (`layout: poem` in the file's 
-frontmatter/metadata). The edition template does not support the formatting of 
+files that are using the **poem layout** (`layout: poem` in the file's 
+frontmatter/metadata). The edition template does not currently support the formatting of 
 poetry in files that use other layouts, such as a block of poetry inside a book 
 chapter that uses `layout: paginate`. This is a feature we hope to expand upon 
 in future releases.
