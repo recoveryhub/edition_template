@@ -15,6 +15,7 @@ Welcome to the Recovery Hub for American Women Writers’ template for text-base
 - [Configuring Your Site](https://recoveryhub.github.io/edition_template/documentation/site-config)
 - [Transcribing Materials](https://recoveryhub.github.io/edition_template/documentation/transcription)
 - [Markdown Guide](https://recoveryhub.github.io/edition_template/documentation/markdown)
+- [Metadata Guide for Markdown](https://recoveryhub.github.io/edition_template/documentation/metadata)
 - [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei)
 - [Publishing Your Site](https://recoveryhub.github.io/edition_template/documentation/setup#publishing-your-site-with-github-pages)
 
