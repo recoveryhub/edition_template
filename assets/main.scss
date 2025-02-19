@@ -470,6 +470,10 @@ a.grayed-out {
     }
   }
 
+  .metadata-box {
+    margin-bottom: $spacing-unit;
+  }
+
   article.chapter .post-content {
     border-top: 1px solid $recovery-hub-silver-dark;
     border-bottom: 1px solid $recovery-hub-silver-dark;
