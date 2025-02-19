@@ -463,12 +463,9 @@ a.grayed-out {
     justify-content: space-between;
     margin-bottom: $spacing-unit;
     width: 100%;
-  
-    .book-title {
-      margin-right: 4px;
-    }
     
     .separator {
+      margin-left: 4px;
       margin-right: 4px;
     }
   }
