@@ -44,7 +44,7 @@ Some of the YAML front matter controls how Jekyll handles the file, and while th
 Any additional genres or pages can use the `layout: default`, or one of the above; feel free to try them out and see which fits best.
 
 #### TEI layout
-- All TEI files, regardless of genre, will use `layout: TEI`. This will be automatically filled in when you run the `tei_to_html.rb` script to transform your TEI/XML files. You'll only need to worry about it if you make changes to the files in `_texts` directly.
+- All TEI files, regardless of genre, will use `layout: tei`. This will be automatically filled in if you run the `tei_to_html.rb` script to transform your TEI/XML files. You'll only need to worry about it if you make changes to the files in `_texts` directly.
 
 #### Pagination
 `layout: paginate` can be used to add Previous / Next links to book chapters, periodicals, and paratext. Book chapters will be grouped by matching `book_title:`, allowing you to separate pagination for separate books. If you use `layout: paginate` for periodicals or paratext, the Previous / Next pagination will cycle through all files in that category/genre. Poems and TEI files do not work with `layout: paginate` at this time.
