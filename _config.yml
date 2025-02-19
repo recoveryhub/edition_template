@@ -221,13 +221,13 @@ defaults:
       layout: tei
 # Paratext (Introduction, Essays, Documentation)
   - scope:
-      path: "essays"
+      path: "paratext/essays"
       type: pages
     values:
       layout: default
       category: essays
   - scope:
-      path: "docs"
+      path: "paratext/docs"
       type: pages
     values:
       layout: default

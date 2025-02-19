@@ -1,11 +1,10 @@
 ---
 layout: paginate
-title: Getting Started
+title: Setting up your edition
 permalink: documentation/setup
-category: documentation
 ---
 
-# Getting Started
+# Setting up your edition
 
 ## Create a GitHub account
 
@@ -48,16 +47,16 @@ Before you start using this template, decide on your project's long name,
 short name, and a file prefix. 
 
 A project's **long name** is often the full edition title, e.g. 
-`Mary Johnson's The Wanderers: A Digital Edition`.
+`Mary Johnston's The Wanderers: A Digital Edition`.
 
 A project's **short name** makes a great repository name (see the "Create a new 
-repository" recommendations) can only contain upper and lowercase letters, 
+repository" recommendations). It can only contain upper and lowercase letters, 
 underscores ( `_` ) and dashes ( `-` ). We recommend choosing two or three key 
 words from your edition's long name and using dashes where there would normally 
 be spaces, e.g. `johnston-wanderers`
 
 The **edition prefix** is the short set of letters or numbers at the beginning of each 
-file name. Ideally, the prefix should be 6 characters or less. It can be fairly 
+file name. Ideally, the prefix should be 5 characters or less. It can be fairly 
 basic (e.g. `ed1` to indicate that it's your first edition), or it can reflect 
 your project name (e.g. the author's initials or an acronym based on your 
 project's short name). You'll use this every time you create and name a file 
@@ -66,25 +65,34 @@ in your edition.
 ## Folder structure
 
 The folders you will primarily use are:
-- `docs`, which is for documentation.
-- `items`, 
+- `paratext/docs`, which is for documentation.
+- `paratext/essays`, where you can add essays and other paratext to 
+accompany the edition.
+- `items`, which is where Markdown transcriptions should go when they are ready 
+to publish. You will copy your ready-to-publish Markdown-encoded documents (`.md`) here manually.
+  - If you are working with multiple genres, use the subfolders in `items` 
+  to organize your files by genre. The sample files in the template are 
+  organized by `books`, `periodicals`, and `poems`.
+  
 - `source`, which is where you'll store the following:
   - The `drafts` folder, which is can be (re)organized to your liking. We recommending organizing them by file type (e.g. `markdown` or `tei`) as they are in this sample.
-  - The `markdown` folder, which is where your transcriptions will go when they are ready to publish. You will copy your ready-to-publish Markdown-encoded documents (`.md`) here manually.
+    - Included in the `drafts/markdown` folder are blank sample files for each of the built-in genres (books, periodicals, and poems), with all the hard-coded metadata fields included and not yet filled in.
   - The `tei` folder is where you will place your ready-to-publish TEI-encoded documents (`.xml`). 
-  - The `source` folder also contains a Ruby script named `tei_to_md.rb`, which you can run locally to create Markdown files that correspond to your TEI files. You may also create the Markdown files by hand based on the examples in the `_texts` folder (see the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/site-config)).
+  - The `source` folder also contains a Ruby script named `tei_to_md.rb`, which you can run locally to create Markdown files that correspond to your TEI files. You may also create the Markdown files by hand based on the examples in the `_texts` folder (see the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei)).
 - `_texts`, which is the folder that will hold the Markdown files that correspond to your TEI files. 
-- If you have images to display on your site, you can use the `assets/images` folder to organize them. The home page banner image that the template uses is `assets/images/recovery-hub-banner.jpg.` To replace it with a custom banner image, follow the instructions under [Configuring your digital edition](https://recoveryhub.github.io/edition_template/documentation/site-config).
+- `assets/images`, which contains:
+  - The home page banner image, `assets/images/banner-image.jpg`. To replace it with a custom banner image, follow the instructions under [Configuring your digital edition](https://recoveryhub.github.io/edition_template/documentation/site-config).
+  - Any logos or marks that you want to add to the site footer (e.g. for project sponsors)
+  - `assets/images/tei`: if you are using TEI and would like to include page images as part of your edition, add the image files to this folder. 
 
-Other folders beginning with an underscore (`_includes`, `_layouts`, etc.) contain the 
-files for the Jekyll site and theme. 
+Other folders beginning with an underscore (`_includes`, `_layouts`, etc.) contain files and code for the Jekyll site and theme.
 
 ## Transcription and editing
 
 For detailed documentation on transcribing sources, organizing files, and 
 readying your edition for publishing online, see our 
 [Transcription tutorial](https://recoveryhub.github.io/edition_template/documentation/transcription). 
-If you plan to use TEI in your edition, you may also link directly to the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/site-config).
+If you plan to use TEI in your edition, you may also link directly to the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei).
 
 ## Configuring your site
 
@@ -97,21 +105,21 @@ tutorial.
 
 ## Publishing your site with GitHub Pages
 
-To publish, enable GitHub Pages by going to your repository's settings, 
-clicking "Pages" in the left sidebar, choosing your branch as the source, and 
-clicking save. Step-by-step instructions are available in GitHub's official documentation, 
-[Configuring a publishing source for your GitHub Pages site](https://documentation.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Publication may take a couple of minutes. Once your site is published, the URL will be visible under "About" when you view 
-your repository on GitHub.
-
 **Your repository must be public before it can be published with GitHub Pages.** 
 If your repository is currently private, [change your repository's visibility](https://documentation.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) to public.
 
-In order for links to work, you will then need to change your `_config.yml` file 
-with the values of this new URL. 
+To publish, enable GitHub Pages by going to your repository's settings, 
+clicking "Pages" in the left sidebar, choosing your branch as the source, and 
+clicking save. Step-by-step instructions are available in GitHub's official documentation, 
+[Configuring a publishing source for your GitHub Pages site](https://documentation.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site). Publication may take a couple of minutes. Once your site is published, the URL will be visible under "About" when you view your repository on GitHub.
 
-**Example:** if your URL is, for instance, 
-`https://recoveryhub.github.io/your_edition/`, 
-then these will be your values (note the slash placement): 
+### Change url and baseurl to match published site
+
+In order for links to work, you will then need to change your `_config.yml` file 
+to match the URL of your published GitHub Pages site.
+
+**Example:** if your URL is `https://recoveryhub.github.io/your_edition/`, 
+then these will be your values (note the slashes `/` at the beginning of the baseurl and end of the url): 
 
 ```
 baseurl: "/your_edition"
@@ -121,6 +129,14 @@ url: "https://recoveryhub.github.io/"
 Once GitHub regenerates your pages (it can take up to a couple of minutes but 
 is usually pretty quick), you can see your site.
 
+## Making Changes
+
+You can make changes to your site any time before or after it's published. It usually takes a few minutes for changes to show up on the published site, so if 
+make changes and don't see them right away, don't panic!
+
+## Troubleshooting
+
+If you're experiencing problems with your GitHub Pages site, the official GitHub Pages documentation has [detailed troubleshooting information](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-jekyll-build-errors-for-github-pages-sites) and is a good place to start. 
 
 
 

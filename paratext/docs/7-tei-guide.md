@@ -9,6 +9,8 @@ category: documentation
 
 The Recovery Hub edition template supports working with files encoded according to the [Text Encoding Initiative P5 Guidelines](https://tei-c.org/guidelines/). In order to add TEI/XML files to your edition, follow the steps listed below. 
 
+**Note:** The book-with-chapters template and paginated template do not yet support TEI files.
+
 ## TEI Tips
 
 The template uses TEI in HTML5 Custom Elements based on [CETEIcean](https://github.com/TEIC/CETEIcean). Out of the box CETEIcean supports most TEI elements. Further customization of element handling and display is possible by adjusting the JavaScript and CSS files. There are a few features distinct to the Recovery Hub edition template's implementation: 

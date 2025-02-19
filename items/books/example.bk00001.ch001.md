@@ -1,13 +1,26 @@
 ---
 layout: paginate
 title: "Chapter I: The Forest"
+permalink: books/example-book/chapter-1
 
-# Metadata
+# Source Metadata
 type: chapter
 author: Mary Johnston
-book_title: The Wanderers
+book_title: Example Book
 chapter_number: 1
 chapter_title: The Forest
+
+# Edition Metadata
+
+# Contributors
+contributors: 
+  - Person 1
+  - Person 2
+
+# Editors
+file_edited_by: 
+  - Person 1 
+  - Person 2
 ---
 
 # CHAPTER I

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Essay
-peramlink: essays/sample-essay
+permalink: essays/example-essay
 ---
 
 # Sample essay

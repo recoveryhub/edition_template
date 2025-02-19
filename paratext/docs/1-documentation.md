@@ -2,8 +2,6 @@
 layout: paginate
 title: Documentation
 permalink: documentation
-docs_number: 1
-category: documentation
 ---
 
 # Recovery Hub Digital Edition Template
@@ -15,6 +13,7 @@ Welcome to the Recovery Hub for American Women Writers’ template for text-base
 - [Configuring Your Site](https://recoveryhub.github.io/edition_template/documentation/site-config)
 - [Transcribing Materials](https://recoveryhub.github.io/edition_template/documentation/transcription)
 - [Markdown Guide](https://recoveryhub.github.io/edition_template/documentation/markdown)
+- [Metadata Guide for Markdown](https://recoveryhub.github.io/edition_template/documentation/metadata)
 - [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei)
 - [Publishing Your Site](https://recoveryhub.github.io/edition_template/documentation/setup#publishing-your-site-with-github-pages)
 
@@ -26,6 +25,6 @@ Welcome to the Recovery Hub for American Women Writers’ template for text-base
 - [jQuery 3.7.1 slim build](https://jquery.com/download/)
 - [Fancybox](https://github.com/fancyapps/fancybox) jQuery lightbox gallery
 
-## Sample Pages
+## Example Pages
 
-[View all pages in this template](page-list), including example texts.
+[View all pages in this demo](https://recoveryhub.github.io/edition_template/documentation/page-list), including example texts.

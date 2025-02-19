@@ -1,15 +1,27 @@
 ---
 layout: paginate
 title: "Chapter II: The Cave"
+permalink: books/example-book/chapter-2
 
-# Metadata
+# Source Metadata
 type: chapter
 author: Mary Johnston
-book_title: The Wanderers
+book_title: Example Book
 chapter_number: 2
 chapter_title: The Cave
----
 
+# Edition Metadata
+
+# Contributors
+contributors: 
+  - Person 1
+  - Person 2
+
+# Editors
+file_edited_by: 
+  - Person 1 
+  - Person 2
+---
 
 # CHAPTER II
 

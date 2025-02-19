@@ -1,35 +1,29 @@
 ---
 layout: book
-title: Book
-permalink: book
+title: Example Book
+permalink: books/example-book
 
-# Metadata
-
-## Source Description
+# Source Metadata
 author: Mary Johnston
-book_title: The Wanderers 
+book_title: Example Book
 book_editor: 
 publisher: Houghton Mifflin
 publication_place: Boston
 publication_date: 1917
 pages: 426
 
-## Encoding Description (info about the editing and encoding of this digital file)
+# Edition Metadata
 
-### Annotators
-annotations_by: 
-  - Person 1 # To add more people, copy and paste this line
-  # etc.
+# Contributors
+contributors: 
+  - Contributor 1
 
-### Editors
-# Note: the editor of the whole edition/site is set in _config.yml. 
-# If file_edited_by is filled in below, it will override the editor listed in _config.yml.
+# Editors
 file_edited_by: 
-  - Person 1 # To add more editors, copy and paste this line
-  # etc.
+  - Contributor 2
 
 ---
 
-# The Wanderers
+# The Wanderers (excerpt for example purposes only)
 
 Whatever you put in this file (book.md) will appear in the full book view below the metadata and chapters list. (Delete this paragraph if you don't need extra text; do not delete the metadata, however.)

@@ -45,8 +45,8 @@ layout: default
         </li>
         <li class="about-this-edition"><h3>About the Digital Edition</h3>
           <ul>
-            {% if page.annotations_by %}
-              <li><strong>Annotations by:</strong> {{ page.annotations_by | array_to_sentence_string }}</li>
+            {% if page.contributors %}
+              <li><strong>Contributors:</strong> {{ page.contributors | array_to_sentence_string }}</li>
             {% endif %}
             {% if page.file_edited_by %}
               <li><strong>Edited by</strong>: {{ page.file_edited_by | array_to_sentence_string }}</li>

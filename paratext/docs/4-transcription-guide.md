@@ -2,7 +2,6 @@
 layout: paginate
 title: Transcription Guide
 permalink: documentation/transcription
-category: documentation
 ---
 
 # Transcription Guide
@@ -35,17 +34,19 @@ works best. Then, you can go back and process the rest of your documents in a
 streamlined, standardized fashion.
 
 ### OCR tool comparison chart
-|  Tool | Free | Batch processing | Size limit | Instructions/guides | Example output (original doc here) |
+
+| Tool | Free | Batch processing | Size limit | Instructions/guides | Example output (from [example PDF](https://drive.google.com/file/d/1o4p-jGnzowTdDhv994lMvv6KtH-c8D1g/view?usp=drive_link)) |
 | ------- | ------- | ------- | ------- | ------- | ------- |
-| Adobe Export PDF online* | No | Yes |  | Official guide | ocr-adobeweb.docx |
-| newocr.com(checkbox for multi-column) | Yes | No |  | Homepage | ocr-newocr.dococr-newocr.txt (Plain text option) |
-| ABBYY FineReader PDF | No | ? | ? | Homepage | Requires signup |
-| Google Chrome (open file, select all and copy/paste) | Yes | No | - |  | ocr-chromecopy.docx |
-| Adobe Acrobat DC“Edit Text” function“Export as” function | No | Yes | - | (Separate functions)“Edit text”“Export as” | ocr-adobeedit.docxocr-adobeexport.docx |
-| Firefox (open file, select all and copy/paste) | Yes | No | - |  | ocr-firefoxcopy.docx |
-| Google Drive (web) | Yes | No | 2 MB | Official guide | ocr-googledrive.docx |
-| CopyFish |  |  |  | Copyfish docs |  |
-| Transkribus (handwriting) | Y+N |  | 500 credits | Homepage | Requires signup |
+| [Adobe Acrobat Export PDF](https://www.adobe.com/acrobat/export-pdf-online-pricing.html) (online service) | No | Yes | 100 MB | [Official guide](https://helpx.adobe.com/acrobat/web/share-review-and-export/export-and-print/export-pdf-overview.html) | [ocr-adobeweb.docx](https://docs.google.com/document/d/1MJ58mSEniJYqbAq6q995HFWjdXRMi0mt/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [newocr.com](https://www.newocr.com/) (PDF, JPG, PNG, & more) | Yes | No | None | [Homepage](https://www.newocr.com/) | [ocr-newocr.doc](https://docs.google.com/document/d/1WFVcZpVx15aIKjwADXru8acFd4fUs_YB/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) <br />[ocr-newocr.txt](https://drive.google.com/file/d/1xB6jqdmO9-HCvJTlR1izNaVEzzLYRCrc/view?usp=drive_link) |
+| [ABBYY FineReader PDF](https://pdf.abbyy.com/) | No | Yes | See [plans](https://pdf.abbyy.com/pricing/) | [User's Guide](https://support.abbyy.com/hc/en-us/articles/360006360039-FineReader-User-s-guides) | - |
+| [Google Chrome](https://www.google.com/chrome/) | Yes | No | N/A | Open PDF in Chrome, select all, and copy/paste | [ocr-chromecopy.docx](https://docs.google.com/document/d/13OKmiW0LTW0ZwTN-P2FQItKSPby9GFTB/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [Adobe Acrobat DC](https://www.adobe.com/acrobat.html) | No | Yes | None | 2 methods, [Edit text](https://helpx.adobe.com/acrobat/using/edit-text-pdfs.html) or [Export as](https://helpx.adobe.com/acrobat/using/pdf-to-word.html) | [ocr-adobeexport.docx](https://docs.google.com/document/d/1aHw45skBZnZV19VU8z8aMSbnulnB-3BX/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [Firefox](https://www.mozilla.org/en-US/firefox/) | Yes | No | N/A | Open PDF in Firefox, select all, and copy/paste | [ocr-firefoxcopy.docx](https://docs.google.com/document/d/11ImsYEHvCR3uBtf2JkEjrVJ6urUt2US7/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [Google Drive](https://drive.google.com/drive/) | Yes | No | 2 MB | [Official guide](https://support.google.com/drive/answer/176692?hl=en&co=GENIE.Platform%3DDesktop) | [ocr-googledrive.docx](https://docs.google.com/document/d/1Mh09dsKbwG7gVJkoIf6ckqR1B2g3OHTF/edit?usp=drive_link&ouid=105957547306882692685&rtpof=true&sd=true) |
+| [OCRSpace](https://ocr.space/) | Free and paid options | [API only](https://ocr.space/OCRAPI) | 5 MB (free option) | [Homepage](https://ocr.space/) | [ocr-ocrspace.txt](https://drive.google.com/file/d/1RqiSRwAmDir_-ZUW87vxBkMvqwSMN15-/view?usp=drive_link) |
+| [Transkribus](https://www.transkribus.org/) (OCR + handwriting recognition) | Free and paid options | Yes | See [plans](https://www.transkribus.org/plans) | [Homepage](https://readcoop.eu/transkribus/?sc=Transkribus) | - |
+
 
 ## File creation and naming
 
@@ -63,23 +64,18 @@ name. If not, see the
 [Naming your project](https://recoveryhub.github.io/edition_template/documentation/setup#naming-your-project) 
 section on that page.
 
-## File names
+## Our filename recommendations
 
-Every file in your edition **must** have a unique filename, regardless of the 
-file extension. In other words, if you have a Markdown file called 
-`example.00001.md`, *do not name any of your TEI files* `example.00001.xml`. 
-
-**Bad**: `example.00001.md`, `example.00001.xml`
-**Good**: `example.00001.md`, `example.00002.xml`
+This framework is not currently dependent on precise filenaming, with one exception if you are encoding  documents in TEI (your–TEI encoded .xml documents and the .md files they generate will have the same filenames, except for the extension). That said, choosing a consistent filenaming pattern early helps keep your files organized and gives the edition a solid foundation for future growth and/or transfer to other platforms.
 
 ### Single-genre editions
 
-Text files should begin with the edition prefix and then have a padded number that 
-starts with zeroes, e.g. `00001`. The length of the padding number is up to you, 
-but we recommend erring on the longer side. Using 5 digits, for example, allows 
-you to have 99,999 files that will always be correctly ordered when sorted by 
-name (starting at `00001` and going as high as `99999`). We separate these with 
-a period (`.`) to aid readability:
+We recommend having filenames for transcriptions begin with the edition prefix 
+and then a padded number that starts with zeroes, e.g. `00001`. The length of 
+the padded number is up to you, but we recommend erring on the longer side. 
+Using 5 digits, for example, allows you to have 99,999 files that will always 
+be correctly ordered when sorted by name (starting at `00001` and going as 
+high as `99999`). We separate these with a period (`.`) to aid readability:
 
 `file prefix` + `.` + `padded number` + `file extension`
 e.g.
@@ -88,10 +84,12 @@ e.g.
 Note that it does not matter what numbers you choose for each file, as long as 
 all the filenames are unique; they do not need to be consecutive numbers.
 
-### Editions with multiple genres
+### Multi-genre editions
 
 Because the example files in this template represent different categories or 
-genres of source materials, we use a slightly more detailed naming scheme. 
+genres of source materials (books/book chapters, periodicals, poems, etc.), we 
+use a slightly more detailed naming scheme. 
+
 In addition to the file prefix, there is a two-letter code for the file's 
 genre/category (`bk` for books, `cr` for correspondence,`pm` for poems, `pr` 
 for periodicals), and—specific to book chapters—the abbreviation `ch` for 
@@ -113,6 +111,10 @@ If you are naming files according to genre, it's okay to start with `00001` for
 every genre. In that case, you might have filenames like `ed1.cr00004.xml` and 
 `ed1.pm00004.xml`, and that won't cause any problems.
 
+### TEI files
+
+The example TEI/XML files in this template include `tei` in the filename. This is helpful, as it will keep your TEI-transformed Markdown filenames distinct from any other Markdown files in your edition. You'll notice that we skip having a genre code (`bk`, etc.) in the TEI/XML filenames to reduce the length somewhat. What you choose to do is ultimately up to you.
+
 ### Why are there files in this template that don't fit the file naming scheme?
 
 The transcriptions that make up the body of the edition use the file naming 
@@ -127,10 +129,9 @@ Information about encoding files in Markdown is available in our
 
 ## Transcribing Files in TEI
 
-Information about encoding files in TEI is available in our 
-[TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei).
+If you would like to work with files encoded according to the [Text Encoding Initiative Guidelines](https://tei-c.org/guidelines/), check out the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/tei).
 
-### Transcribing and Editing Files Using GitHub
+## Transcribing and Editing Files Using GitHub
 
 GitHub is great for file storage because of its versioning capabilities. But 
 did you know that GitHub has a built-in file editor you can use right in your 
@@ -149,32 +150,5 @@ You can also just use plain ol' reliable git, if you prefer.
 
 ### Metadata
 
-This template uses [YAML Front Matter](https://jekyllrb.com/docs/front-matter/) 
-to record metadata for each file. In order to work, front matter must be the 
-first thing in the file, must be valid YAML (if you're following the example 
-files, you'll be fine), and must be between triple-dashed lines. For example:
+As you transcribe and encode your texts, you'll want to encode metadata, as well. See our [Metadata guide](https://recoveryhub.github.io/edition_template/documentation/metadata) for instructions.
 
-```
-layout: about
-title: About Us
-```
-
-Though front matter is the technical name, we'll use the term metadata instead 
-of front matter throughout the rest of this guide, since it makes more sense in 
-the language of digital editions.
-
-If you leave a metadata field blank, it  will not appear in the metadata for 
-the page and thus will not be available for harvesters or citation programs 
-(like Zotero).
-
-- `title:` If you have a Heading 1 at the top of your file (see the [Headings section of our Markdown guide]() for more information), that will be taken as the "title" for the page. if you would like to set a different title, 
-you can do so using the `title:` value.
-- `creator:` (look up how this would work for multiple values)
-- `contributor:` contributors to the digital file, transcribers, encoders, etc.
-- `published_date:` (look to see how this would work)
-
-TODO: figure out other metadata that would need to be added to make different doc types save correctly in zotero, etc.
-
-## TEI/XML
-
-If you would like to work with files encoded according to the [Text Encoding Initiative Guidelines](https://tei-c.org/guidelines/), check out the [TEI Guide](https://recoveryhub.github.io/edition_template/documentation/site-config).

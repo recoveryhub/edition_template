@@ -2,8 +2,8 @@
 layout: paginate
 title: Site Configuration Guide
 permalink: documentation/site-config
-category: documentation
 ---
+
 # Site Configuration Guide
 
 The Recovery Hub digital edition template allows you to configure and customize

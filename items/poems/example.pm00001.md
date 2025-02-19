@@ -1,47 +1,42 @@
 ---
 layout: poem
-title: Poem
-permalink: poem
+title: Example Poem
+permalink: poems/example-poem
 
-# Metadata
-
-## Source description
+# Source Metadata
 author: 
-poem_title: Sample poem
+poem_title: Example Poem
 publication_title: 
 publisher: 
 publication_place:  
 publication_date: unknown 
 
-## Encoding Description (info about the editing and encoding of this digital file)
+# Edition Metadata
 
-### Annotators
-annotations_by: 
-  - Person 1 # To add more people, copy and paste this line
-  # etc.
+# Contributors
+contributors: 
+  - Person 1
+  - Person 2
 
-### Editors
-# Note: the editor of the whole edition/site is set in _config.yml. 
-# If file_edited_by is filled in below, it will override the editor listed in _config.yml.
+# Editors
 file_edited_by: 
-  - Person 1 # To add more editors, copy and paste this line
-  # etc.
-
+  - Person 1
+  - Person 2
 ---
 
-# Poetry Samples
+# Example Poem and Indentation
 
 For instructions on how this digital edition template uses Markdown, Jekyll 
 layouts, and CSS to format poetry, refer to the 
-[Poetry formatting in Markdown](https://recoveryhub.github.io/documentation/markdown) 
+[Poetry formatting in Markdown](https://recoveryhub.github.io/edition_template/documentation/markdown) 
 section of our documentation.
 
 ## Sample poetry excerpt from "Songs for the People" by Frances Ellen Watkins Harper
 
 - Let me make the songs for the people,
-- {.indent-2} Songs for the old and young;
+- {:.indent-2} Songs for the old and young;
 - Songs to stir like a battle-cry
-- {.indent-2} Wherever they are sung.
+- {:.indent-1} Wherever they are sung.
 
 <!-- -->
 
