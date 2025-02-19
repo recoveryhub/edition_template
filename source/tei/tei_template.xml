@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sampleID001">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Sample Title</title>
-            <title type="sub">electronic edition</title>
-            <author sameAs="#aa">An Author</author>
-            <editor>An Editor</editor>
+            <title type="main"></title>
+            <author xml:id=""></author>
+            <editor xml:id=""></editor>
             <respStmt>
                <resp>Transcription and encoding</resp>
-               <persName xml:id="at">A Transcriber</persName>
+               <persName xml:id=""></persName>
             </respStmt>
             <sponsor></sponsor>
             <funder></funder>
          </titleStmt>
          <editionStmt>
             <edition>
-               <date>2024</date>
+               <date></date>
             </edition>
          </editionStmt>
          <publicationStmt>
@@ -27,19 +26,18 @@
                <addrLine></addrLine>
             </address>
             <availability>
-               <licence>https://creativecommons.org/licenses/by-nc-sa/4.0/</licence>
-               <p>The base text of the original item is in the public domain. The text encoding and editorial notes were created and/or prepared by the editor and are licensed under a
-                  <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</ref>
-                  (CC BY-NC-SA 4.0).</p>
+               <licence></licence>
+               <p></p>
             </availability>
-            <idno>sampleID001</idno>
+            <idno></idno>
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <author sameAs="#aa"/>
-               <date when="1872-04-12">April 12, 1872</date>
-               <title level="a"></title>
-               <title level="j"></title>
+               <author sameAs=""/>
+               <date when=""></date>
+               <!-- title levels can be "m" (for main) or "a" and "j" (for a piece that is part of something larger, like an article in a journal) -->
+               <title level=""></title>
+               <!-- optional field to include if the original is based on numbered pages -->
                <biblScope unit="pages"></biblScope>
             </bibl>
          </sourceDesc>
@@ -47,20 +45,19 @@
       <encodingDesc>
          <classDecl>
             <taxonomy>
-               <category><catDesc>correspondence</catDesc></category>
+               <!-- any category added here will also need to be added to the config file -->
+               <category><catDesc></catDesc></category>
             </taxonomy>
          </classDecl>
       </encodingDesc>
       <revisionDesc>
-         <change when="2024-12-04" who="#at">transcribed, encoded</change>
+         <change when="" who=""></change>
       </revisionDesc>
    </teiHeader>
    <text>
       <body>
-         <pb facs="image.jpg"/>
-         <p>Some text.</p>
-         <pb facs="image2.jpg"/>
-         <p>Some more text.</p>
+         <pb facs=""/>
+         <p></p>
       </body>
    </text>
 </TEI>

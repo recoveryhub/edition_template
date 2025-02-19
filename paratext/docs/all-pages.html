@@ -1,6 +1,7 @@
 ---
 layout: default
-title: View All
+title: List of Pages
+permalink: documentation/page-list
 ---
 
 <h1 class="post-title">List of All Pages</h1>
@@ -95,13 +96,25 @@ title: View All
 </ul> -->
 
 {% if site.texts.size > 0 %}
-  <h2>All TEI files</h2>
-
+  <h2>Texts by Encoding</h2>
+  <h3>Markdown</h3>
+  <ul>
+  {% for text in site.texts %}
+  {% if text.layout != "tei" %}
+    <li>
+      <a href="{{ text.url | relative_url }}">{{ text.title }}</a> ({{text.category}})
+    </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+  <h3>TEI</h3>
   <ul>
     {% for text in site.texts %}
+    {% if text.layout == "tei" %}
       <li>
         <a href="{{ text.url | relative_url }}">{{ text.title }}</a> ({{text.category}})
       </li>
+      {% endif %}
     {% endfor %}
   </ul>
 {% endif %}

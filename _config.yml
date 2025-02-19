@@ -61,10 +61,7 @@ description: >-
 # in the order you wish them to appear. 
 
 header_pages:  
-  - "paratext/docs/docs.md" # tutorial pages
-  - "items/books/edbase.bk00001.md" # example book
-  - "items/periodicals/edbase.per00001.md" # example periodical
-  - "items/poems/edbase.pm00001.md" # example poem
+  - "paratext/docs/1-documentation.md" # tutorial pages
   - "paratext/docs/all-pages.html" # list of all pages in this template
 
 
@@ -224,13 +221,13 @@ defaults:
       layout: tei
 # Paratext (Introduction, Essays, Documentation)
   - scope:
-      path: "essays"
+      path: "paratext/essays"
       type: pages
     values:
       layout: default
       category: essays
   - scope:
-      path: "docs"
+      path: "paratext/docs"
       type: pages
     values:
       layout: default

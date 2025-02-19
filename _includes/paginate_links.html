@@ -2,11 +2,11 @@
   <div>
     {% if prev_i < 0 %}
       <a class="grayed-out" disabled="true">
-        <span>Previous {{ page.type | capitalize }}</span>
+        <span>Previous</span>
       </a>
     {% else %}
       <a href="{{ sorted_pages[prev_i].url | relative_url }}">
-        ⇦ <span>Previous {{ page.type | capitalize }}</span>
+        ⇦ <span>Previous</span>
       </a>
     {% endif %}
   </div>
@@ -20,21 +20,31 @@
           </a>
         {% endfor %}
       {% if page.book_title and page.chapter_number %}
-      <span class="separator">|</span>
+        <span class="separator">|</span>
+        <span class="chapter-title">{{ page.title }}</span> 
+      {% endif %}
+
+    {% elsif page.category %}
+      {% assign lowercase_title = page.title | downcase %}
+      {% if page.category != lowercase_title %}
+        {% if page.category == "documentation" %}
+        <a href="/edition_template/documentation">Documentation</a>
+        {% else %}
+        <span class="page-category">{{ page.category | capitalize }}</span>
+        {% endif %}
+        <span class="separator">|</span> 
+        <span class="chapter-title">{{ page.title }}</span>
       {% endif %}
     {% endif %}
-    {% if page.chapter_number %}
-      <span class="chapter-title">Chapter {{ page.chapter_number }}</span>{% endif %}{% if page.chapter_number and page.chapter_title %}: {% endif %}{% if page.chapter_title %}<span class="chapter-title">{{ page.chapter_title }}</span>
-    {% endif %} 
   </div>
   <div>
     {% if num_of_pages > next_i %}
       <a href="{{ sorted_pages[next_i].url | relative_url }}">
-          <span>Next {{ page.type | capitalize }}</span> ⇨
+          <span>Next</span> ⇨
       </a>
     {% else %}
       <a class="grayed-out" disabled="true">
-          <span>Next {{ page.type | capitalize }}</span>
+          <span>Next</span>
       </a>
     {% endif %}
   </div>
