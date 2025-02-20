@@ -55,7 +55,7 @@ underscores ( `_` ) and dashes ( `-` ). We recommend choosing two or three key
 words from your edition's long name and using dashes where there would normally 
 be spaces, e.g. `johnston-wanderers`
 
-The **edition prefix** is the short set of letters or numbers at the beginning of each 
+An **edition prefix** is a short set of letters or numbers at the beginning of each 
 file name. Ideally, the prefix should be 5 characters or less. It can be fairly 
 basic (e.g. `ed1` to indicate that it's your first edition), or it can reflect 
 your project name (e.g. the author's initials or an acronym based on your 
