@@ -19,7 +19,7 @@ If you don't have a GitHub account, follow the instructions for
 
 To get started with your own edition, you'll create a GitHub repository for your 
 project based on this template. Click the "Use this template" button 
-above to make a copy on your own GitHub account. For detailed instructions, 
+at the top of the [repository home page](https://github.com/recoveryhub/edition_template) and choose "Create a new repository" to make a copy on your own GitHub account. For detailed instructions, 
 see [Creating a repository from a template](https://documentation.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub's official documentation.
 
 ### Recommended settings for the "Create a new repository" page
@@ -27,7 +27,7 @@ see [Creating a repository from a template](https://documentation.github.com/en/
   branches, just the default one.
 - For **Owner**, it's okay to leave your personal account selected unless this 
   edition should belong to a GitHub organization; if the latter, change 
-  **Owner** to your organization.
+  **Owner** to your organization (e.g. the Recovery Hub)..
 - Your **Repository name** should be short but memorable. For naming guidelines, 
   see the The name cannot contain spaces, so we recommend using underscores 
   (for example, `your_edition`). See the [Naming Your Project]() section of this documentation 
@@ -55,7 +55,7 @@ underscores ( `_` ) and dashes ( `-` ). We recommend choosing two or three key
 words from your edition's long name and using dashes where there would normally 
 be spaces, e.g. `johnston-wanderers`
 
-The **edition prefix** is the short set of letters or numbers at the beginning of each 
+An **edition prefix** is a short set of letters or numbers at the beginning of each 
 file name. Ideally, the prefix should be 5 characters or less. It can be fairly 
 basic (e.g. `ed1` to indicate that it's your first edition), or it can reflect 
 your project name (e.g. the author's initials or an acronym based on your 

@@ -24,6 +24,9 @@ layout: default
         {% if page.publication_title %}
           <li><strong>Publisher</strong>: {{ page.publication_title }}</li>
         {% endif %}
+        {% if page.publication_editor %}
+          <li><strong>Editor of publication</strong>: {{ page.publication_editor }}</li>
+        {% endif %}
         {% if page.publication_place %}
           <li><strong>Place of publication</strong>: {{ page.publication_place }}</li>
         {% endif %}

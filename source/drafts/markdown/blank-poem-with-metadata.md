@@ -7,6 +7,7 @@ permalink:
 author: 
 poem_title: 
 publication_title: 
+publication_editor: 
 publisher: 
 publication_place: 
 publication_date:

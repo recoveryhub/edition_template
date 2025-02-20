@@ -12,7 +12,11 @@ layout: default
         <img src="{{ site.banner_image | relative_url }}" alt="{{ site.banner_alt_text }}" />
       </div>
       <div class="banner-text">
+        {% if page.title %}
+        <h1 class="page-heading">{{ page.title | escape }}</h1>
+        {% else %}
         <h1 class="page-heading sr-only">{{ site.title | escape }}</h1>
+        {% endif %}
         {%- if site.description -%}
         <div class="site-description">
           {{ site.description }}
@@ -29,7 +33,11 @@ layout: default
         <img src="{{ site.banner_image | relative_url }}" alt="{{ site.banner_alt_text }}" />
       </div>
       <div class="banner-text">
-        <h1 class="page-heading sr-only">{{ site.title }}</h1>
+        {% if page.title %}
+        <h1 class="page-heading">{{ page.title | escape }}</h1>
+        {% else %}
+        <h1 class="page-heading sr-only">{{ site.title | escape }}</h1>
+        {% endif %}
         {%- if site.description -%}
         <div class="site-description">
           {{ site.description }}
