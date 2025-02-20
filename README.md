@@ -33,12 +33,12 @@ of digital content. To learn more, visit the
 are available on our example site and in the files of this template.
 
 To get started with your own edition, click the "Use this template" button 
-above to make a copy on your own GitHub account. For detailed instructions, 
+at the top of the [repository home page](https://github.com/recoveryhub/edition_template) and choose "Create a new repository" to make a copy on your own GitHub account. For detailed instructions, 
 see [Creating a repository from a template](https://documentation.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) in GitHub's official documentation.
 
 Our recommendations for options on the "Create a new repository" page:
 - Leave **Include all branches** unchecked. You won't need all the edition_base branches, just the default one.
-- For **Owner**, it's okay to leave your personal account selected unless this edition should belong to a GitHub organization; if the latter, change **Owner** to your organization.
+- For **Owner**, it's okay to leave your personal account selected unless this edition should belong to a GitHub organization; if the latter, change **Owner** to your organization (e.g. the Recovery Hub)..
 - Your **Repository name** should be short but memorable. The name cannot contain spaces, so we recommend using underscores (for example, `baker_digital_edition`).
 - The **Description** is optional. You can always add or change it later.
 - Whether your repository starts out as **Public** or **Private** is up to you. Either way, people will not be able to make changes without your approval. If the repository is **Private**, only people you add as members will be able to see that it exists (to learn how to add members, see [Inviting Collaborators to a personal repository](https://documentation.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) in GitHub's documentation). Many people prefer to make their repository **Private** initially; just be aware that you will have to go into your settings later and change your repository to **Public** before you can publish your edition with GitHub pages.
