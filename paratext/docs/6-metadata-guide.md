@@ -20,17 +20,20 @@ title: About Us
 ---
 ```
 
-Though **front matter** is the technical name, we'll use the term **metadata** instead 
-of front matter throughout the rest of this guide, since it makes more sense in 
-the language of digital editions.
+Though **front matter** is the technical name, we sometimes use the term **metadata** 
+instead of front matter in our documentation, since it makes more sense in 
+terms of digital editions.
 
 ## Front matter that isn't metadata
 
-Some of the YAML front matter controls how Jekyll handles the file, and while they're not strictly metadata, they are essential for the functioning of your digital edition on the web.
+Some of the YAML front matter controls how Jekyll handles the file, and while 
+they're not strictly metadata, they are essential for the functioning of your 
+digital edition on the web.
 
 ### layout
 
-`layout:` sets the specific template file used to display the page. Fill in this field with the corresponding template name:
+`layout:` sets the specific template file used to display the page. Fill in this 
+field with the corresponding template name:
 
 #### Markdown layouts
 - About page (`about.md`): `layout: default`
@@ -41,13 +44,22 @@ Some of the YAML front matter controls how Jekyll handles the file, and while th
 - Periodicals: `layout: periodical` or `layout: paginate`
 - Poems: `layout: poem`
 
-Any additional genres or pages can use the `layout: default`, or one of the above; feel free to try them out and see which fits best.
+Any additional genres or pages can use the `layout: default`, or one of the above; 
+feel free to try them out and see which fits best.
 
 #### TEI layout
-- All TEI files, regardless of genre, will use `layout: tei`. This will be automatically filled in if you run the `tei_to_html.rb` script to transform your TEI/XML files. You'll only need to worry about it if you make changes to the files in `_texts` directly.
+- All TEI files, regardless of genre, will use `layout: tei`. This will be 
+automatically filled in if you run the `tei_to_html.rb` script to transform 
+your TEI/XML files. You'll only need to worry about it if you make changes 
+to the files in `_texts` directly.
 
-#### Pagination
-`layout: paginate` can be used to add Previous / Next links to book chapters, periodicals, and paratext. Book chapters will be grouped by matching `book_title:`, allowing you to separate pagination for separate books. If you use `layout: paginate` for periodicals or paratext, the Previous / Next pagination will cycle through all files in that category/genre. Poems and TEI files do not work with `layout: paginate` at this time.
+#### Paginated texts
+`layout: paginate` can be used to add Previous / Next links to book chapters, 
+periodicals, and paratext. Book chapters will be grouped by matching `book_title:`, 
+allowing you to separate pagination for separate books. If you use `layout: paginate` 
+for periodicals or paratext, the Previous / Next pagination will cycle through 
+all files in that category/genre. Poems and TEI files do not work with 
+`layout: paginate` at this time.
 
 ### title
 
@@ -120,8 +132,24 @@ Plain text will also work, however, whether that's a fancy date like "February 5
 for consistency reasons, except when special notes like "unknown" or "ca. 1873" 
 are required.
 
+### Encoding Metadata without displaying it on the page
+
+If you would like to provide metadata for one of the hard-coded fields, but 
+*not* display it on the published page, add a hash mark (`#`) to the beginning 
+of the line, like so: 
+
+`# publication_place: Edwardsville, IL`
+
+From Jekyll's point of view, the hash mark at the beginning of the line turns it 
+into a comment rather than a field with a value. Note that this will completely 
+exclude it from the published edition on the web, not just hide it from view; 
+it will not be available for harvesters or citation programs (like Zotero).
+
 ## Important Information for Books and Book Chapters
-This digital edition framework uses two layout templates, `layout: book` and `layout: paginate`, to faciliate a way to click through chapters one by one *and* have a page that displays all the chapters of the book, in order, with links to the individuals.
+This digital edition framework uses two layout templates, `layout: book` and 
+`layout: paginate`, to faciliate a way to click through chapters one by one 
+*and* have a page that displays all the chapters of the book, in order, with 
+links to the individuals.
 
 To use this feature:
 1. Create a Markdown file for the book itself and use `layout: book` in the file frontmatter/metadata. If you wish to include paratext or an introduction to the book, include it in the body of this Markdown file. **Do not paste the chapters into this file.**
