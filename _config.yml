@@ -76,7 +76,7 @@ description: >-
 #  - "items/books/filenameofbook.md"
 #  - "texts/filenameoftei.md
 #  - "paratext/essays/filenameofessay.md"
-#  - "about/md"
+#  - "about.md"
 #
 # Configure your links here:
 
