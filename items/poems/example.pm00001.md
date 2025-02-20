@@ -6,10 +6,11 @@ permalink: poems/example-poem
 # Source Metadata
 author: 
 poem_title: Example Poem
-publication_title: 
-publisher: 
-publication_place:  
-publication_date: unknown 
+publication_title: Publication here
+publication_editor: Publication editor here
+publisher: Publisher here
+publication_place:  Publication place here
+publication_date: Publication place here 
 
 # Edition Metadata
 
