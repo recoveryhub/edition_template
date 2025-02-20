@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="example.tei.cr00002">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="example.tei.cr00001">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -24,7 +24,7 @@
                <addrLine>1000 A Street</addrLine>
                <addrLine>A Town, State</addrLine>
             </address>
-            <idno>example.tei.cr00002</idno>
+            <idno>example.tei.cr00001</idno>
             <availability>
                <licence>https://creativecommons.org/licenses/by-nc-sa/4.0/</licence>
                <p>The base text of the original item is in the public domain. The text encoding and editorial notes were prepared 
