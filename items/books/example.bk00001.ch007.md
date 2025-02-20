@@ -1,13 +1,26 @@
 ---
 layout: paginate
 title: "Chapter VII: The Amazon"
+permalink: books/example-book/chapter-7
 
-# Metadata
+# Source Metadata
 type: chapter
 author: Mary Johnston
-book_title: The Wanderers
+book_title: Example Book
 chapter_number: 7
 chapter_title: The Amazon
+
+# Edition Metadata
+
+# Contributors
+contributors: 
+  - Person 1
+  - Person 2
+
+# Editors
+file_edited_by: 
+  - Person 1 
+  - Person 2
 ---
 
 # CHAPTER VII

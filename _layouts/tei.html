@@ -27,12 +27,12 @@ layout: default
         {% if page.publication_place %}
           <li><strong>Place of publication</strong>: {{ page.publication_place }}</li>
         {% endif %}
-        {% if page.publication_date %}
-          <li><strong>Date of publication</strong>: 
-            {% if page.publication_date.size %} {% comment %} Tests if date is in format other than YYYY-MM-DD {% endcomment %}
-              {{ page.publication_date }}
+        {% if page.date_display %}
+          <li><strong>Date</strong>: 
+            {% if page.date_display.size %} {% comment %} Tests if date is in format other than YYYY-MM-DD {% endcomment %}
+              {{ page.date_display }}
             {% else %}
-              {{ page.publication_date | date: "%B %e, %Y" }}
+              {{ page.date_display | date_display: "%B %e, %Y" }}
             {% endif %}
           </li>
         {% endif %}
@@ -45,8 +45,8 @@ layout: default
         </li>
         <li class="about-this-edition"><h3>About the Digital Edition</h3>
           <ul>
-            {% if page.annotations_by %}
-              <li><strong>Annotations by:</strong> {{ page.annotations_by | array_to_sentence_string }}</li>
+            {% if page.contributors %}
+              <li><strong>Contributors:</strong> {{ page.contributors | array_to_sentence_string }}</li>
             {% endif %}
             {% if page.file_edited_by %}
               <li><strong>Edited by</strong>: {{ page.file_edited_by | array_to_sentence_string }}</li>

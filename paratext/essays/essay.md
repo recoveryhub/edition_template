@@ -1,3 +1,11 @@
+---
+layout: default
+title: Essay
+permalink: essays/example-essay
+---
+
+# Sample essay
+
 ## Introduction
  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus sapien, gravida eu libero ac, viverra congue mi. Nunc hendrerit quam ante, elementum euismod ligula pellentesque et. Aenean pellentesque, nulla eu tempor suscipit, velit eros placerat ex, quis tristique odio diam vitae neque. Morbi at libero arcu. Maecenas accumsan ut sem aliquet pharetra. Nam iaculis scelerisque sodales. Nam laoreet in mi nec ullamcorper. Nunc commodo tortor ut odio mattis volutpat nec a elit. Vivamus fringilla sodales dui, eu suscipit ligula varius eu. 

@@ -23,10 +23,12 @@
 ##############
 # Site Title #
 ##############
+# This title appears in the site header at the top of every page. If the 
+# full title of your digital edition is very long, we recommend using a 
+# shorter version here, and using the long version as the title of your 
+# homepage (the "title:" in the frontmatter/metadata of index.md).
 
 title: Recovery Hub Digital Edition Template
-
-
 
 #############
 # Site URL #
@@ -56,16 +58,31 @@ description: >-
 ####################
 # Navigation Links #
 ####################
-# This allows you to customize which pages appear in the navigation menu.  
-# List them here (with the full path to the file, including folder names)
-# in the order you wish them to appear. 
+# This is where you can change the links that appear in the navigation menu.
+# List them here with the full path to the file (including folder names),
+# wrapped in quotation marks,in the order you wish them to appear in the menu. 
+# The title of each page, which is the "title:" you have in the 
+# frontmatter/metadata/teiHeader of the corresponding file, is what will appear 
+# in the navigation menu.
+#
+# Note that for TEI files, you will link to the file located in the _texts 
+# folder. However, DO NOT include the underscore at the beginning of the 
+# folder name. In other words, you would use texts/filename.md, 
+# NOT _texts/filename.md or source/tei/filename.xml).
+#
+# Here's what a typical digital edition might have in the navigation menu:
+#
+# header_pages:
+#  - "items/books/filenameofbook.md"
+#  - "texts/filenameoftei.md
+#  - "paratext/essays/filenameofessay.md"
+#  - "about/md"
+#
+# Configure your links here:
 
 header_pages:  
-  - "paratext/docs/docs.md" # tutorial pages
-  - "items/books/edbase.bk00001.md" # example book
-  - "items/periodicals/edbase.per00001.md" # example periodical
-  - "items/poems/edbase.pm00001.md" # example poem
-  - "paratext/docs/all-pages.html" # list of all pages in this template
+  - "paratext/docs/1-documentation.md"
+  - "paratext/docs/all-pages.html"
 
 
 ################
@@ -163,16 +180,34 @@ facebook_username: YourUsername
 # Categories #
 ##############
 # This sets default categories for your Markdown or TEI files based on
-# the folder in which they are located.
-# # We use this custom method of setting up categories instead of Jekyll's 
-# built-in collections functionality because the latter does not account 
-# for files with no frontmatter.
-# Categories listed here must match the categories in "defaults:" below. 
-# If you add a category, be sure to add it in both places.
-# In defaults, copy and paste the 6-line set of variables, starting with 
-# "  - scope:" and ending with "category:". 
-# Make sure to use the same pattern of indentation.
-
+# the folder in which they are located. We use this custom method of setting up 
+# categories, rather than relying on Jekyll's built-in collections 
+# functionality, because the latter does not account for files that have no 
+# frontmatter/metadata.
+# 
+# To add a new category, you must add it to both "category_list" and "defaults":
+#    1. Under "category_list:", copy and paste one of the lines, including the 
+#       2 spaces at the beginning of the line. (They will break if they are not 
+#       indented correctly.)
+#    2. Change new line you copy-and-pasted to the name of your new category. 
+#       Categories should be all lowercase letters and cannot contain spaces, 
+#       and must be inside quotation marks. All but the last category in the 
+#       list must have a comma after the closing quotation mark.
+#    3. Under "defaults:", copy and paste the 6-line set of variables, 
+#       starting with "scope:" and ending with "category:". Include all spaces
+#       that indent each line.
+#    4. Set up your new category defaults as follows:
+#        a. "path:" is the path to the folder in which you will store this 
+#           category's files/texts, wrapped in quotation marks.
+#        b. "type:" is always pages.
+#        c. "layout:" is the default page layout this category will use. You can 
+#           override this default in individual files with the `layout:` field
+#           in the file's frontmatter/metadata. For a list of layout options 
+#           included in this edition template, see the Metadata documentation page:
+#           https://recoveryhub.github.io/edition_template/documentation/metadata
+#        d. "category:" MUST match the category name you added under "category_lists" 
+#           (See Step 2), but with no quotation marks.
+    
 category_list: [
   "none", 
   "drafts", 
@@ -182,7 +217,7 @@ category_list: [
   "poems", 
   "documentation",
   "correspondence"
-  ]
+]
 
 defaults:
   - scope:
@@ -224,19 +259,21 @@ defaults:
       layout: tei
 # Paratext (Introduction, Essays, Documentation)
   - scope:
-      path: "essays"
+      path: "paratext/essays"
       type: pages
     values:
       layout: default
       category: essays
   - scope:
-      path: "docs"
+      path: "paratext/docs"
       type: pages
     values:
       layout: default
       category: documentation
 
-# To use Jekyll collections, set them up here:
+# To use Jekyll collections, set them up here.
+# If you are using TEI in your edition, "output:"
+# must be set to true.
 collections: 
   texts:
     output: true
