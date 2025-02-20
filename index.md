@@ -26,6 +26,8 @@ title: Digital Edition Template by the Recovery Hub for American Women Writers
 This is the `index.md` file, where you can add more information to your homepage
 after the banner image, page title, and short description.
 
-## Make your first heading on this page a Heading 2
+## Important note about headings
+
 This page layout has a Heading 1 built in, so if you create headings in this 
-file, start with Heading level 2.
+file, start with Heading level 2. See comments in the frontmatter/metadata of 
+this `index.md` file for more information.
