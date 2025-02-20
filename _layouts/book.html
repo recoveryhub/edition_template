@@ -66,20 +66,15 @@ layout: default
       <ul>
         <!-- Get files in items > books whose book_title match this file's book_title -->
         {% assign this_book = page.book_title %}
-        {% assign chapters = site.pages | where_exp: "page", "page.chapter_number" %}
-        {% assign this_book_only_chapters = chapters | where_exp: "page", "page.book_title == this_book" | group_by: "chapter_number" %}
-        {% assign sorted_by_number = this_book_only_chapters | sort: "name" %}
-        {% for chapter_by_number in sorted_by_number %}
-          {% assign sorted_by_number_and_title = chapter_by_number.items | sort: "title" %}
-          {% for chapter in sorted_by_number_and_title %}
-            {% if chapter.url != page.url %}
-            <li>
-              <a href="{{ chapter.url | relative_url }}">
-                {{ chapter.title }}
-              </a>
-            </li>
-            {% endif %}
-            {% endfor %}
+        {% assign chapter_list = site.pages | where_exp: "page", "page.book_title == this_book" | sort: "chapter_number" %}
+        {% for chapter in chapter_list %}
+          {% if chapter.title != this_book %}            
+              <li>
+                <a href="{{ chapter.url | relative_url }}">
+                  {{ chapter.title }}
+                </a>
+              </li>
+          {% endif %}          
         {% endfor %}
     </div>
   </details>
