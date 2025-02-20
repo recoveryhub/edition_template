@@ -73,7 +73,7 @@ For ease of use, the example `.md` files in this template have all of these hard
 - `book_editor:` editor of original text
 - `publisher:` name of publisher
 - `publication_place:` location of publisher 
-- `publication_date:` date of publication, formatted `YYYY`, or `YYYY-MM`, or `YYYY-MM-DD`
+- `publication_date:` date of publication (see Date Formatting documentation below)
 - `pages:` number of pages
 
 ### Metadata for Periodicals
@@ -81,7 +81,7 @@ For ease of use, the example `.md` files in this template have all of these hard
 - `article_title:` title of article in periodical
 - `publication_title:` title of journal, newspaper, or other periodical
 - `publication_place:` location of publication (city, state, etc.)
-- `publication_date:` date of publication, formatted `YYYY`, or `YYYY-MM`, or `YYYY-MM-DD`
+- `publication_date:` date of publication (see Date Formatting documentation below)
 - `pages:` number of pages or specific page numbers, depending on your edition
 
 ### Metadata for Poems
@@ -91,7 +91,7 @@ For ease of use, the example `.md` files in this template have all of these hard
 - `publication_editor:` editor of collection or publication
 - `publisher`: name of publisher
 - `publication_place:` location of publisher or publication (city, state, etc.)
-- `publication_date:` date of publication, formatted `YYYY`, or `YYYY-MM`, or `YYYY-MM-DD`
+- `publication_date:` date of publication (see Date Formatting documentation below)
 - `pages:` number of pages or specific page numbers, depending on your edition
 
 ### Metadata specific to your edition
@@ -110,6 +110,15 @@ languages:
   - English
   - Deutsch
 ```
+
+### Date formatting
+If a `publication_date` is formatted `YYYY`, or `YYYY-MM`, or `YYYY-MM-DD`, with 
+no other text, the edition template will transform it into a fancy date when 
+it's displayed on the page. (`1873-02-05` becomes February 5, 1873, for example.)
+Plain text will also work, however, whether that's a fancy date like "February 5, 
+1873" or other text, such as "unknown". We recommend using the `YYYY-MM-DD` format 
+for consistency reasons, except when special notes like "unknown" or "ca. 1873" 
+are required.
 
 ## Important Information for Books and Book Chapters
 This digital edition framework uses two layout templates, `layout: book` and `layout: paginate`, to faciliate a way to click through chapters one by one *and* have a page that displays all the chapters of the book, in order, with links to the individuals.
