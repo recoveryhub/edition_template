@@ -23,10 +23,10 @@
 ##############
 # Site Title #
 ##############
-# This title appears in the site header at the top of every page (next to the 
-# navigation menu). If the full title of your digital edition is very long, we
-# recommend putting a shorter version here, and using the long version as the 
-# title of your homepage (the "title:" in index.md).
+# This title appears in the site header at the top of every page. If the 
+# full title of your digital edition is very long, we recommend using a 
+# shorter version here, and using the long version as the title of your 
+# homepage (the "title:" in the frontmatter/metadata of index.md).
 
 title: Recovery Hub Digital Edition Template
 
@@ -271,7 +271,9 @@ defaults:
       layout: default
       category: documentation
 
-# To use Jekyll collections, set them up here:
+# To use Jekyll collections, set them up here.
+# If you are using TEI in your edition, "output:"
+# must be set to true.
 collections: 
   texts:
     output: true
