@@ -21,6 +21,6 @@ file_edited_by:
   - Person 1 # To add more editors, copy and paste this line, including the 2 spaces at the beginning of the line. If there are none, or to use the editor(s) listed in _config.yml, delete this line.
 ---
 
-# Title Here
+# Book Chapter Title Here
 
 Text here

@@ -23,6 +23,6 @@ file_edited_by:
 
 ---
 
-# Title Here
+# Periodical Title Here
 
 Text here
