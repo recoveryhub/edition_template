@@ -3,7 +3,7 @@ Welcome to the Recovery Hub for American Women Writers’ template for text-base
 
 ## About the Recovery Hub for American Women Writers
 
-The Recovery Hub for American Women Writers supports projects recovering the 
+The [Recovery Hub for American Women Writers](https://recoveryhub.siue.edu/) supports projects recovering the 
 work of women writers by providing digital access to forgotten or neglected 
 texts and/or extending them with network mapping, spatial analysis, multimedia 
 storytelling, innovative contextualization, and the distant reading of massive 
