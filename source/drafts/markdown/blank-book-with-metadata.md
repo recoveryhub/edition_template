@@ -24,6 +24,6 @@ file_edited_by:
 
 ---
 
-# Title Here
+# Book Title Here
 
 Text here

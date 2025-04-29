@@ -3,7 +3,7 @@ Welcome to the Recovery Hub for American Women Writers’ template for text-base
 
 ## About the Recovery Hub for American Women Writers
 
-The Recovery Hub for American Women Writers supports projects recovering the 
+The [Recovery Hub for American Women Writers](https://recoveryhub.siue.edu/) supports projects recovering the 
 work of women writers by providing digital access to forgotten or neglected 
 texts and/or extending them with network mapping, spatial analysis, multimedia 
 storytelling, innovative contextualization, and the distant reading of massive 
@@ -26,6 +26,7 @@ of digital content. To learn more, visit the
 - TEI in HTML5 Custom Elements based on [CETEIcean](https://github.com/TEIC/CETEIcean)
 - Recovery Hub theme based on [Minima](https://github.com/jekyll/minima) version [2.5.1](https://github.com/jekyll/minima/releases/tag/v2.5.1)
 - [jQuery 3.7.1 slim build](https://jquery.com/download/)
+- [Fancybox](https://github.com/fancyapps/fancybox) jQuery lightbox gallery
 
 ## Getting Started
 
