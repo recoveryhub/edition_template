@@ -26,6 +26,7 @@ of digital content. To learn more, visit the
 - TEI in HTML5 Custom Elements based on [CETEIcean](https://github.com/TEIC/CETEIcean)
 - Recovery Hub theme based on [Minima](https://github.com/jekyll/minima) version [2.5.1](https://github.com/jekyll/minima/releases/tag/v2.5.1)
 - [jQuery 3.7.1 slim build](https://jquery.com/download/)
+- [Fancybox](https://github.com/fancyapps/fancybox) jQuery lightbox gallery
 
 ## Getting Started
 
