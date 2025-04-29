@@ -1,14 +1,28 @@
 ---
 layout: paginate
 title: "Chapter V: What‘s in a Name?"
+permalink: books/example-book/chapter-5
 
-# Metadata
+# Source Metadata
 type: chapter
 author: Mary Johnston
-book_title: The Wanderers
+book_title: Example Book
 chapter_number: 5 
 chapter_title: What‘s in a Name?
+
+# Edition Metadata
+
+# Contributors
+contributors: 
+  - Person 1
+  - Person 2
+
+# Editors
+file_edited_by: 
+  - Person 1 
+  - Person 2
 ---
+
 # CHAPTER V
 
 ## WHAT’S IN A NAME?
