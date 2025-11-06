@@ -32,11 +32,11 @@ To get started with your own edition, you’ll need to create a GitHub repositor
 
 First, visit the Recovery Hub’s [repository home page](https://github.com/recoveryhub/edition_template).
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png" height="400" />
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png" width="100%" />
 
 Click the “Use this template” button at the top-right of the repository homepage, then select “Create a new repository” to copy it to your GitHub account.
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0002.png" height="200" />
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0002.png" width="80%" />
 
 After clicking on “Create a new repository,” GitHub will immediately take you to a page to set initial settings for your new repository. See <span style="color: #3c9696;">[Step 3](#step-3-github-repository-setting-recommendations)</span> for our setting suggestions.  
 
@@ -45,30 +45,30 @@ After clicking on “Create a new repository,” GitHub will immediately take yo
 
 On the “Create a new repository” page, you will be asked to choose your preferred repository settings. Below, we list the setting fields GitHub offers when creating a new repository along with our recommendations for each:
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png" height="400" />
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png" width="100%" />
 
 **Start with a template**: recoveryhub/edition_template
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0005.png" />
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0005.png" width="80%" />
 
 **Include all branches**: Off
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0006.png" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0006.png" width="80%" /> 
 
 **Owner**: Keep your personal account selected unless your edition belongs to a specific GitHub organization.
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0007.png" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0007.png" width="80%" /> 
 
 **Repository Name**: Pick a name that is short but memorable (e.g., edition_test_km)
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0008.png" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0008.png" width="80%" /> 
 
 > **`Note`**Repository names **<u>cannot</u>** contain spaces, so we recommend using underscores in place of the spaces (e.g., edition_test_km). See <span style="color: #3c9696;">[Naming Your Project](#naming-your-project)</span> for more.
 
     
 **Description**: Optional. You can always add or change later. 
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0009.png" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0009.png" width="80%" /> 
 
 **Visibility**: It’s up to you. Either way, people will not be able to make changes without your approval.
 
@@ -76,7 +76,7 @@ On the “Create a new repository” page, you will be asked to choose your pref
 
 > **Public**: To publish your edition with GitHub Pages, your visibility settings **<u>must</u>** be set to Public, which can be changed at any time. Refer to <span style="color: #3c9696;">[Step 5](#step-5-publishing-your-edition-site)</span> for instructions on updating visibility settings at a later time. 
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0010.png" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0010.png" width="80%" /> 
 
 Once you’ve entered your initial settings, click “create repository” at the bottom of the page. 
 
@@ -98,7 +98,7 @@ Locate and open the file that you need to edit in your repository’s main branc
 
 Next, to make a change, switch to “edit” mode by clicking the pencil icon in the top-right corner of the file. You will not be able to make any changes if you are not in edit mode. 
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig6.png" width="80%" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig6.png" width="100%" /> 
 
 After you’ve made your changes, you can either “cancel” or “commit” to them. If you “cancel changes,” your edits will not be applied. Choose “commit changes” to confirm them.
 
@@ -110,14 +110,14 @@ Before you can commit your changes, GitHub will present you with the option to k
 
 Click “commit changes” to update your file.  
 
-Now that you know how to make and commit changes to your files, let’s walk through how to update your URL and BaseRUL and how to customize your edition site!
+Now that you know how to make and commit changes to your files, let’s walk through how to update your URL and BaseURL and how to customize your edition site!
 
 #### **Change URL and Base URL**
 To change the URL and base URL for your edition, locate and open the <span style="color: #E44C31;">**_config.yml**</span> file in the main branch of your edition’s repository.
 
 The base URL metadata element can be found on line 40; the URL metadata element can be found on line 41. 
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig9.png" height="400" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig9.png" width="80%" /> 
 
 After you switch to edit mode, scroll down to update your URLs, replacing "edition_template" in the base URL with **your edition's repository name** and replacing "recoveryhub" in the URL with **your GitHub username**. See formulas and examples below:
 
@@ -128,7 +128,7 @@ After you switch to edit mode, scroll down to update your URLs, replacing "editi
 `https://KezMill.github.io/`
 
 **Base URL Formula**:
-`/edition respoitory name`
+`/edition repository name`
 
 **Example**:
 `/edition_test_km`
@@ -138,13 +138,13 @@ After you switch to edit mode, scroll down to update your URLs, replacing "editi
 
 #### **Customizing Edition: Updating Settings in _config.yml** 
 
-If youhaven't already, locate and open the <span style="color: #E44C31;">**_config.yml**</span> file in the main branch of your edition’s repository.
+If you haven't already, locate and open the <span style="color: #E44C31;">**_config.yml**</span> file in the main branch of your edition’s repository.
 
 Read through the file to familiarize yourself. **The lines starting with a #** indicate our detailed explanations of each setting and its function. Text after a # does not appear on the published site; we recommend keeping these lines to prevent confusion if you need to make changes later. 
 
 You will add metadata to each element listed in the file, see Fig. 7 below:
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig10.png" height="300" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig10.png" width="80%" /> 
 
 To edit and add your metadata, click the pencil icon in the top right corner and, from top to bottom, edit elements found under each section:
 
@@ -197,7 +197,7 @@ These sections have been added to the default <span style="color: #E44C31;">**_c
 ### <span style="color: #0c4e6d;">**<u>Step 5: Publishing Your Edition Site</u>**</span>
 To publish your project edition site with GitHub pages, click “Settings” at the top of your edition’s repository home page. This will direct you to the setting’s “General” page.
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig11.png" height="300" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig11.png" width="80%" /> 
 
 Before you continue, **your _repository must be public_ before it can be published** with GitHub Pages. 
 
@@ -208,7 +208,7 @@ If your repository is currently **private**, follow the steps below to make it p
 #### **Update Privacy Settings: Private to Public**
 On the setting’s general page, scroll down till you reach “Danger Zone” and click “Change Visibility,” changing to public.
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig12.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig12.png" width="80%" /> 
 
 Click “I want to make this repository public" on the first pop up box.
 
@@ -222,11 +222,11 @@ After your repository has been made public, the page will reload and take you ba
 
 To publish your site with GitHub Pages, find the "Pages" section in the left-hand menu of the Settings page. Click the box that says "None" and select "Main" instead. Click "Save."
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig13.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig13.png" width="80%" /> 
 
 Your site will take several minutes to publish. Once it has completed the deployment process, you'll find your link both in the Pages settings page.
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig14.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig14.png" width="80%" /> 
 
 ### <span style="color: #0c4e6d;">**<u>Step 6: Adding Content to Your Site</u>**</span>
 
@@ -308,7 +308,7 @@ Other folders beginning with an underscore (<span style="color: #63AEB6;">**_inc
 #### **How to Add a New Page**
 To add a new page, go to your repository's main branch and click “Add file” in the top-right corner and click “Create a new file.” 
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig15.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig15.png" width="80%" /> 
 
 You can also upload a file from your computer by clicking "Upload files" and selecting the file you want to upload. 
 
