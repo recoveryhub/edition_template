@@ -190,7 +190,7 @@ IMAGE (highlight what will be removed)
 
 IMAGE (highlight updated)
 
->> **`Note`**: You can either update your URLs before or after you publish your site. GitHub provides both on [name of page] once your site has become live. See <span style="color: #3c9696;">[Step 5](#publishing-your-edition-site-with-github-pages)</span> for more information on publishing your site with GitHub pages. 
+>> **`Note`**: You can either update your URLs before or after you publish your site. GitHub provides both on GitHub Pages once your site has become live. See <span style="color: #3c9696;">[Step 5](#publishing-your-edition-site-with-github-pages)</span> for more information on publishing your site with GitHub pages. 
 
 
 #### **Customizing Edition: Updating Settings in _config.yml** 
