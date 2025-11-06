@@ -31,10 +31,7 @@ To get started with your own edition, you’ll need to create a GitHub repositor
 
 First, visit the Recovery Hub’s [repository home page](https://github.com/recoveryhub/edition_template).
 
-<p align="center">
-  <img 
-    height="400"   src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png">
-</p> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png" height="400" />
 
 Click the “Use this template” button at the top-right of the repository homepage, then select “Create a new repository” to copy it to your GitHub account.
 
