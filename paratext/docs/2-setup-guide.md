@@ -34,7 +34,7 @@ First, visit the Recovery Hub’s [repository home page](https://github.com/reco
 <p align="center">
   <img 
     width="500"
-    height="400"   src="https://github.com/KezMill/edition_test_km/blob/97f68bebccb6a4b03b3a66c1665d53bd3059074c/assets/images/guide/0001.png">
+    height="400"   src="/assets/images/guide/0001.png">
 </p> 
 
 Click the “Use this template” button at the top-right of the repository homepage, then select “Create a new repository” to copy it to your GitHub account.
