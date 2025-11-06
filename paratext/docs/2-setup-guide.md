@@ -130,7 +130,7 @@ It will take a few moments to set up your new repository. After it’s created, 
   <img 
     width="500"
     height="400"
-    src="">
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig5.png">
 </p> 
 
 ### <span style="color: #0c4e6d;">**<u>Step 4: Configuring Your Edition Site</u>**</span>
@@ -141,21 +141,34 @@ The <span style="color: #E44C31;">**_config.yml**</span> file contains settings 
 #### **How do I Make Changes?**
 The following step-by-step instructions for changing the <span style="color: #E44C31;">**_config.yml**</span> file apply to **<u>all</u>** files in your GitHub repository.
 
-Locate and open the file that you need to edit in your repository’s main branch: <span style="color: #E44C31;">**_config.yml**</span>
-
-![Image 1]
+Locate and open the file that you need to edit in your repository’s main branch: <span style="color: #E44C31;">**_config.yml**</span> 
 
 Next, to make a change, switch to “edit” mode by clicking the pencil icon in the top-right corner of the file. You will not be able to make any changes if you are not in edit mode. 
 
-![image](https://)
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig6.png">
+</p> 
 
-After you’ve made your changes, you can either “cancel” or “commit” to them. If you “cancel changes,” your edits will not be applied. Thus, unless you’ve changed your mind, you will choose “commit changes.”
+After you’ve made your changes, you can either “cancel” or “commit” to them. If you “cancel changes,” your edits will not be applied. Choose “commit changes” to confirm them.
 
-![image](https://)
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig7.png">
+</p> 
 
 Before you can commit your changes, GitHub will present you with the option to keep the default or revise the commit message. This _**required**_ field serves as a brief, descriptive record of the changes made in a file. The Git commit message is a crucial part of version control, providing context and a history of code modifications for you and anyone else with access to the repository. Providing an “extended description” is _optional_. 
 
-![image](https://)
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig8.png">
+</p> 
 
 Click “commit changes” to update your file.  
 
@@ -166,29 +179,26 @@ To change the URL and base URL for your edition, locate and open the <span style
 
 The base URL metadata element can be found on line 40; the URL metadata element can be found on line 41. 
 
-IMAGE
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig9.png">
+</p> 
 
 After you switch to edit mode, scroll down to update your URLs, replacing "edition_template" in the base URL with **your edition's repository name** and replacing "recoveryhub" in the URL with **your GitHub username**. See formulas and examples below:
 
 **URL Formula**:
 `https://` + `GitHub username` + `.` + `github.io` + `/` 
 
-IMAGE (highlight what will be removed)
-
 **Example**:
 `https://KezMill.github.io/`
-
-Image (highlight updated)
 
 **Base URL Formula**:
 `/edition respoitory name`
 
-IMAGE (highlight what will be removed)
-
 **Example**:
 `/edition_test_km`
-
-IMAGE (highlight updated)
 
 >> **`Note`**: You can either update your URLs before or after you publish your site. GitHub provides both on [name of page] once your site has become live. See <span style="color: #3c9696;">[Step 5](#publishing-your-edition-site-with-github-pages)</span> for more information on publishing your site with GitHub pages. 
 
@@ -201,7 +211,12 @@ Read through the file to familiarize yourself. **The lines starting with a #** i
 
 You will add metadata to each element listed in the file, see Fig. 7 below:
 
-![image]
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig10.png">
+</p> 
 
 To edit and add your metadata, click the pencil icon in the top right corner and, from top to bottom, edit elements found under each section:
 
@@ -267,9 +282,14 @@ For step-by-step instructions on how to add a new page, refer to our guide under
 > **`Note`**: A new page with additional information about your project can be stored in the main branch of your repository alongside <span style="color: #E44C31;">**index.md**</span> and <span style="color: #E44C31;">**about.md**</span>. If it’s a page about the texts in the edition, you may store it in your <span style="color: #63AEB6;">**paratext**</span> folder instead.
 
 ### <span style="color: #0c4e6d;">**<u>Step 5: Publishing Your Edition Site</u>**</span>
-To publish your project edition site with GitHub pages, click “Settings” at the top of your edition’s repository home page. This will direct you to the setting’s “General” page, see Fig. #.
+To publish your project edition site with GitHub pages, click “Settings” at the top of your edition’s repository home page. This will direct you to the setting’s “General” page.
 
-![image](https://)
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig11.png">
+</p> 
 
 Before you continue, **your _repository must be public_ before it can be published** with GitHub Pages. 
 
@@ -280,7 +300,12 @@ If your repository is currently **private**, follow the steps below to make it p
 #### **Update Privacy Settings: Private to Public**
 On the setting’s general page, scroll down till you reach “Danger Zone” and click “Change Visibility,” changing to public.
 
-![image](https://)
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig12.png">
+</p> 
 
 Click “I want to make this repository public" on the first pop up box.
 
@@ -288,23 +313,27 @@ Click “I have read and understand these effects” on the second pop up box.
 
 Click “Make this repository public" on the last pop up box that appears.
 
-![Box 1](https://)
-
-![Box 2](https://)
-
-![Box 3](https://)
-
 After your repository has been made public, the page will reload and take you back to the top of the setting’s general page. Stay on this page and follow the directions below on how to publish your repository.
 
 #### **Publishing Your Edition Site with GitHub Pages**
 
-ADD SECTION
+To publish your site with GitHub Pages, find the "Pages" section in the left-hand menu of the Settings page. Click the box that says "None" and select "Main" instead. Click "Save."
 
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig13.png">
+</p> 
 
+Your site will take several minutes to publish. Once it has completed the deployment process, you'll find your link both in the Pages settings page.
 
-ADD SECTION
-
-
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig14.png">
+</p> 
 
 ### **<u>Additional Considerations</u>**
 
@@ -369,11 +398,14 @@ Other folders beginning with an underscore (<span style="color: #63AEB6;">**_inc
 #### **How to Add a New Page**
 To add a new page, go to your repository's main branch and click “Add file” in the top-right corner and click “Create a new file.” 
 
-IMAGE
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig15.png">
+</p> 
 
 You can also upload a file from your computer by clicking "Upload files" and selecting the file you want to upload. 
-
-IMAGE
 
 > **`Note`**: If you'd like to add a file to a main folder or subfolder, you can do so by locating and opening that folder. If you need to create a new folder for that file, click<span style="color: #3c9696;">[here](#how-to-create-a-new-folder)</span>. for step-by-step instructions.
 
