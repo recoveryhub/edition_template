@@ -133,9 +133,6 @@ After you switch to edit mode, scroll down to update your URLs, replacing "editi
 **Example**:
 `/edition_test_km`
 
->> **`Note`**: You can either update your URLs before or after you publish your site. GitHub provides both on [name of page] once your site has become live. See <span style="color: #3c9696;">[Step 5](#publishing-your-edition-site-with-github-pages)</span> for more information on publishing your site with GitHub pages. 
-
-
 #### **Customizing Edition: Updating Settings in _config.yml** 
 
 If you haven't already, locate and open the <span style="color: #E44C31;">**_config.yml**</span> file in the main branch of your edition’s repository.
@@ -215,6 +212,8 @@ Click “I want to make this repository public" on the first pop up box.
 Click “I have read and understand these effects” on the second pop up box.
 
 Click “Make this repository public" on the last pop up box that appears.
+
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0024.png" width="100%" />
 
 After your repository has been made public, the page will reload and take you back to the top of the setting’s general page. Stay on this page and follow the directions below on how to publish your repository.
 
