@@ -33,7 +33,6 @@ First, visit the Recovery Hub’s [repository home page](https://github.com/reco
 
 <p align="center">
   <img 
-    width="500"
     height="400"   src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png">
 </p> 
 
@@ -41,7 +40,6 @@ Click the “Use this template” button at the top-right of the repository home
 
 <p align="center">
   <img 
-    width="500"
     height="400"
 src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0002.png">
 </p> 
@@ -55,7 +53,6 @@ On the “Create a new repository” page, you will be asked to choose your pref
 
 <p align="center">
   <img 
-    width="500"
     height="400"
 src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png">
 </p> 
@@ -64,7 +61,6 @@ src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0
 
 <p align="left">
   <img 
-    width="700"
     height="400"   src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0005.png">
 </p> 
 
@@ -72,7 +68,6 @@ src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0
 
 <p align="left">
   <img 
-    width="700"
     height="400"
 src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0006.png">
 </p> 
@@ -81,7 +76,6 @@ src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0
 
 <p align="left">
   <img 
-    width="700"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0007.png">
 </p> 
@@ -90,7 +84,6 @@ src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0
 
 <p align="left">
   <img 
-    width="700"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0008.png">
 </p> 
@@ -102,7 +95,6 @@ src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0
 
 <p align="left">
   <img 
-    width="700"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0009.png">
 </p> 
@@ -115,7 +107,6 @@ src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0
 
 <p align="left">
   <img 
-    width="700"
     height="500"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0010.png">
 </p> 
@@ -128,7 +119,6 @@ It will take a few moments to set up your new repository. After it’s created, 
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig5.png">
 </p> 
@@ -147,7 +137,6 @@ Next, to make a change, switch to “edit” mode by clicking the pencil icon in
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig6.png">
 </p> 
@@ -156,7 +145,6 @@ After you’ve made your changes, you can either “cancel” or “commit” to
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig7.png">
 </p> 
@@ -165,7 +153,6 @@ Before you can commit your changes, GitHub will present you with the option to k
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig8.png">
 </p> 
@@ -181,7 +168,6 @@ The base URL metadata element can be found on line 40; the URL metadata element 
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig9.png">
 </p> 
@@ -213,7 +199,6 @@ You will add metadata to each element listed in the file, see Fig. 7 below:
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig10.png">
 </p> 
@@ -286,7 +271,6 @@ To publish your project edition site with GitHub pages, click “Settings” at 
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig11.png">
 </p> 
@@ -302,7 +286,6 @@ On the setting’s general page, scroll down till you reach “Danger Zone” an
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig12.png">
 </p> 
@@ -321,7 +304,6 @@ To publish your site with GitHub Pages, find the "Pages" section in the left-han
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig13.png">
 </p> 
@@ -330,7 +312,6 @@ Your site will take several minutes to publish. Once it has completed the deploy
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig14.png">
 </p> 
@@ -400,7 +381,6 @@ To add a new page, go to your repository's main branch and click “Add file” 
 
 <p align="center">
   <img 
-    width="500"
     height="400"
     src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig15.png">
 </p> 
@@ -429,7 +409,7 @@ You can also create a nested folder within this new folder by adding another for
 
 IMAGE
 
-Click "Committ Changes" to save.
+Click "Commit Changes" to save.
 
 #### **Transcribing and Editing**
 For detailed documentation on transcribing sources, organizing files, and preparing your edition for online publication, see our <span style="color: #3c9696;">[Markdown Guide](https://recoveryhub.github.io/edition_template/documentation/markdown)</span> or visit the Markdown to review thier super helpful <span style="color: #3c9696;">[cheat sheet](https://www.markdownguide.org/cheat-sheet/)</span>. 
