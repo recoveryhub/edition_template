@@ -5,7 +5,7 @@ permalink: documentation/setup
 ---
 
 
-# 5-Step Guide to Starting your Edition
+# 6-Step Guide to Starting your Edition
 
 ### <span style="color: #0c4e6d;">**<u>Table of Contents</u>**</span>
 [Step 1: Create a GitHub account](#step-1-create-a-github-account) <br>
@@ -13,6 +13,7 @@ permalink: documentation/setup
 [Step 3: GitHub Repository Setting Recommendations](#step-3-github-repository-setting-recommendations) <br>
 [Step 4: Configuring Your Edition Site](#step-4-configuring-your-edition-site) <br>
 [Step 5: Publishing Your Edition Site](#step-5-publishing-your-edition-site) <br>
+[Step 6: Adding Content to Your Site](#step-6-adding-content-to-your-site) <br>
 
 <span style="color: #0c4e6d;">**<u>Additional Considerations</u>**</span><br>
 [Naming Your Project](#naming-your-project) <br>
@@ -194,21 +195,6 @@ collections:
 
 These sections have been added to the default <span style="color: #E44C31;">**_config.yml**</span> file for reference and can be removed from the file for editions that do not include TEI files. 
 
-#### **Home Page Configuration**
-To edit the home page of your site, you’ll need to edit the <span style="color: #E44C31;">**index.md**</span> and potentially make some changes in <span style="color: #E44C31;">**_config.yml**</span>, if you haven’t already. Instructions are provided in both files.
-
-#### **About Page Configuration**
-To edit the About page, make changes to the <span style="color: #E44C31;">**about.md**</span> file found in the main branch of your repository. If you don’t want to have an About page, delete that file instead.
-
-#### **Adding New Pages**
-You can add new pages to your site by creating new Markdown (.md) files. 
-
-> **`Note`**: A page is a file. On your published site, the file functions as a web page.
-
-For step-by-step instructions on how to add a new page, refer to our guide under <span style="color: #3c9696;">[Additional Considerations](#how-to-add-a-new-page)</span>
-
-> **`Note`**: A new page with additional information about your project can be stored in the main branch of your repository alongside <span style="color: #E44C31;">**index.md**</span> and <span style="color: #E44C31;">**about.md**</span>. If it’s a page about the texts in the edition, you may store it in your <span style="color: #63AEB6;">**paratext**</span> folder instead.
-
 ### <span style="color: #0c4e6d;">**<u>Step 5: Publishing Your Edition Site</u>**</span>
 To publish your project edition site with GitHub pages, click “Settings” at the top of your edition’s repository home page. This will direct you to the setting’s “General” page.
 
@@ -242,6 +228,23 @@ To publish your site with GitHub Pages, find the "Pages" section in the left-han
 Your site will take several minutes to publish. Once it has completed the deployment process, you'll find your link both in the Pages settings page.
 
 <img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig14.png" height="200" /> 
+
+### <span style="color: #0c4e6d;">**<u>Step 6: Adding Content to Your Site</u>**</span>
+
+#### **Home Page Configuration**
+To edit the home page of your site, you’ll need to edit the <span style="color: #E44C31;">**index.md**</span> and potentially make some changes in <span style="color: #E44C31;">**_config.yml**</span>, if you haven’t already. Instructions are provided in both files.
+
+#### **About Page Configuration**
+To edit the About page, make changes to the <span style="color: #E44C31;">**about.md**</span> file found in the main branch of your repository. If you don’t want to have an About page, delete that file instead.
+
+#### **Adding New Pages**
+You can add new pages to your site by creating new Markdown (.md) files. 
+
+> **`Note`**: A page is a file. On your published site, the file functions as a web page.
+
+For step-by-step instructions on how to add a new page, refer to our guide under <span style="color: #3c9696;">[Additional Considerations](#how-to-add-a-new-page)</span>
+
+> **`Note`**: A new page with additional information about your project can be stored in the main branch of your repository alongside <span style="color: #E44C31;">**index.md**</span> and <span style="color: #E44C31;">**about.md**</span>. If it’s a page about the texts in the edition, you may store it in your <span style="color: #63AEB6;">**paratext**</span> folder instead.
 
 ### **<u>Additional Considerations</u>**
 
