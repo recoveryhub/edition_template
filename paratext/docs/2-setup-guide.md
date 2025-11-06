@@ -34,7 +34,7 @@ First, visit the Recovery Hub’s [repository home page](https://github.com/reco
 <p align="center">
   <img 
     width="500"
-    height="400"   src="/assets/images/guide/0001.png">
+    height="400"   src="./assets/images/guide/0001.png">
 </p> 
 
 Click the “Use this template” button at the top-right of the repository homepage, then select “Create a new repository” to copy it to your GitHub account.
@@ -43,7 +43,7 @@ Click the “Use this template” button at the top-right of the repository home
   <img 
     width="500"
     height="400"
-src="https://github.com/KezMill/edition_test_km/blob/fc221bbaafb2ab941d355eec93062f624d9b630a/assets/images/guide/0002.png">
+src="assets/images/guide/0002.png">
 </p> 
 
 After clicking on “Create a new repository,” GitHub will immediately take you to a page to set initial settings for your new repository. Below, in <span style="color: #3c9696;">[Step 3](#step-3-github-repository-setting-recommendations)</span>, we share our setting suggestions.  
