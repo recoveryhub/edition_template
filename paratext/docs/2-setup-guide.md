@@ -34,7 +34,7 @@ First, visit the Recovery Hub’s [repository home page](https://github.com/reco
 <p align="center">
   <img 
     width="500"
-    height="400"   src="https://github.com/recoveryhub/edition_template/blob/b7a1412fec13ef5f6d24d8704b403327a56ff659/assets/images/guide/0001.png">
+    height="400"   src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png">
 </p> 
 
 Click the “Use this template” button at the top-right of the repository homepage, then select “Create a new repository” to copy it to your GitHub account.
@@ -43,7 +43,7 @@ Click the “Use this template” button at the top-right of the repository home
   <img 
     width="500"
     height="400"
-src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590660689c5a0e60865ce/assets/images/guide/0002.png">
+src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0002.png">
 </p> 
 
 After clicking on “Create a new repository,” GitHub will immediately take you to a page to set initial settings for your new repository. Below, in <span style="color: #3c9696;">[Step 3](#step-3-github-repository-setting-recommendations)</span>, we share our setting suggestions.  
@@ -57,7 +57,7 @@ On the “Create a new repository” page, you will be asked to choose your pref
   <img 
     width="500"
     height="400"
-src="https://github.com/recoveryhub/edition_template/blob/b7a1412fec13ef5f6d24d8704b403327a56ff659/assets/images/guide/0001.png">
+src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0001-scaled.png">
 </p> 
 
 **Start with a template**: recoveryhub/edition_template
@@ -65,7 +65,7 @@ src="https://github.com/recoveryhub/edition_template/blob/b7a1412fec13ef5f6d24d8
 <p align="left">
   <img 
     width="700"
-    height="400"   src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590660689c5a0e60865ce/assets/images/guide/0005.png">
+    height="400"   src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0005.png">
 </p> 
 
 **Include all branches**: Off
@@ -74,7 +74,7 @@ src="https://github.com/recoveryhub/edition_template/blob/b7a1412fec13ef5f6d24d8
   <img 
     width="700"
     height="400"
-src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590660689c5a0e60865ce/assets/images/guide/0006.png">
+src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0006.png">
 </p> 
 
 **Owner**: Keep your personal account selected unless your edition belongs to a specific GitHub organization.
@@ -83,7 +83,7 @@ src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590
   <img 
     width="700"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590660689c5a0e60865ce/assets/images/guide/0007.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0007.png">
 </p> 
 
 **Repository Name**: Pick a name that is short but memorable (e.g., edition_test_km)
@@ -92,7 +92,7 @@ src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590
   <img 
     width="700"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590660689c5a0e60865ce/assets/images/guide/0008.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0008.png">
 </p> 
 
 > **`Note`**Repository names **<u>cannot</u>** contain spaces, so we recommend using underscores in place of the spaces (e.g., edition_test_km). See <span style="color: #3c9696;">[Naming Your Project](#naming-your-project)</span> for more.
@@ -104,7 +104,7 @@ src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590
   <img 
     width="700"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590660689c5a0e60865ce/assets/images/guide/0009.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0009.png">
 </p> 
 
 **Visibility**: It’s up to you. Either way, people will not be able to make changes without your approval.
@@ -117,7 +117,7 @@ src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590
   <img 
     width="700"
     height="500"
-    src="https://github.com/recoveryhub/edition_template/blob/42e619a91d61b94bf72590660689c5a0e60865ce/assets/images/guide/0010.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0010.png">
 </p> 
 
 Once you’ve entered your initial settings, click “create repository” at the bottom of the page. 
@@ -130,7 +130,7 @@ It will take a few moments to set up your new repository. After it’s created, 
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig5.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig5.png">
 </p> 
 
 ### <span style="color: #0c4e6d;">**<u>Step 4: Configuring Your Edition Site</u>**</span>
@@ -149,7 +149,7 @@ Next, to make a change, switch to “edit” mode by clicking the pencil icon in
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig6.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig6.png">
 </p> 
 
 After you’ve made your changes, you can either “cancel” or “commit” to them. If you “cancel changes,” your edits will not be applied. Choose “commit changes” to confirm them.
@@ -158,7 +158,7 @@ After you’ve made your changes, you can either “cancel” or “commit” to
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig7.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig7.png">
 </p> 
 
 Before you can commit your changes, GitHub will present you with the option to keep the default or revise the commit message. This _**required**_ field serves as a brief, descriptive record of the changes made in a file. The Git commit message is a crucial part of version control, providing context and a history of code modifications for you and anyone else with access to the repository. Providing an “extended description” is _optional_. 
@@ -167,7 +167,7 @@ Before you can commit your changes, GitHub will present you with the option to k
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig8.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig8.png">
 </p> 
 
 Click “commit changes” to update your file.  
@@ -183,7 +183,7 @@ The base URL metadata element can be found on line 40; the URL metadata element 
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig9.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig9.png">
 </p> 
 
 After you switch to edit mode, scroll down to update your URLs, replacing "edition_template" in the base URL with **your edition's repository name** and replacing "recoveryhub" in the URL with **your GitHub username**. See formulas and examples below:
@@ -215,7 +215,7 @@ You will add metadata to each element listed in the file, see Fig. 7 below:
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig10.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig10.png">
 </p> 
 
 To edit and add your metadata, click the pencil icon in the top right corner and, from top to bottom, edit elements found under each section:
@@ -288,7 +288,7 @@ To publish your project edition site with GitHub pages, click “Settings” at 
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig11.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig11.png">
 </p> 
 
 Before you continue, **your _repository must be public_ before it can be published** with GitHub Pages. 
@@ -304,7 +304,7 @@ On the setting’s general page, scroll down till you reach “Danger Zone” an
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig12.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig12.png">
 </p> 
 
 Click “I want to make this repository public" on the first pop up box.
@@ -323,7 +323,7 @@ To publish your site with GitHub Pages, find the "Pages" section in the left-han
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig13.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig13.png">
 </p> 
 
 Your site will take several minutes to publish. Once it has completed the deployment process, you'll find your link both in the Pages settings page.
@@ -332,7 +332,7 @@ Your site will take several minutes to publish. Once it has completed the deploy
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig14.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig14.png">
 </p> 
 
 ### **<u>Additional Considerations</u>**
@@ -402,7 +402,7 @@ To add a new page, go to your repository's main branch and click “Add file” 
   <img 
     width="500"
     height="400"
-    src="https://github.com/recoveryhub/edition_template/blob/ac7e0dc18c4aed799087412cc1af1d27e0c49c78/assets/images/guide/fig15.png">
+    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig15.png">
 </p> 
 
 You can also upload a file from your computer by clicking "Upload files" and selecting the file you want to upload. 
