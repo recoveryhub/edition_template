@@ -65,7 +65,7 @@ src="https://github.com/KezMill/edition_test_km/blob/25c24383a4f9acd063583ffc303
 <p align="left">
   <img 
     width="700"
-    height="400"   src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a4969f7ae1dfea/assets/images/guide/0005.png">
+    height="200"   src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a4969f7ae1dfea/assets/images/guide/0005.png">
 </p> 
 
 **Include all branches**: Off
@@ -73,7 +73,7 @@ src="https://github.com/KezMill/edition_test_km/blob/25c24383a4f9acd063583ffc303
 <p align="left">
   <img 
     width="700"
-    height="400"
+    height="200"
 src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a4969f7ae1dfea/assets/images/guide/0006.png">
 </p> 
 
@@ -82,7 +82,7 @@ src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a
 <p align="left">
   <img 
     width="700"
-    height="400"
+    height="200"
     src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a4969f7ae1dfea/assets/images/guide/0007.png">
 </p> 
 
@@ -90,6 +90,8 @@ src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a
 
 <p align="left">
   <img 
+    width="700"
+    height="200"
     src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a4969f7ae1dfea/assets/images/guide/0008.png">
 </p> 
 
@@ -101,7 +103,7 @@ src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a
 <p align="left">
   <img 
     width="700"
-    height="400"
+    height="200"
     src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a4969f7ae1dfea/assets/images/guide/0009.png">
 </p> 
 
@@ -114,7 +116,7 @@ src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a
 <p align="left">
   <img 
     width="700"
-    height="500"
+    height="300"
     src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a4969f7ae1dfea/assets/images/guide/0010.png">
 </p> 
 
