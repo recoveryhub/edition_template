@@ -28,7 +28,7 @@ If you do **not** have a GitHub account, follow the [instructions on GitHub](htt
 
 ### <span style="color: #0c4e6d;">**<u>Step 2: Create a Template Edition</u>**</span>
 
-To get started with your own edition, you’ll need to create a GitHub repository for your project using our Recovery Hub edition template. 
+To get started with your own edition, you’ll need to create a GitHub repository for your project using our Recovery Hub edition template. (The repository is the folder that stores all of the code for a given project.)
 
 First, visit the Recovery Hub’s [repository home page](https://github.com/recoveryhub/edition_template).
 
@@ -37,9 +37,8 @@ First, visit the Recovery Hub’s [repository home page](https://github.com/reco
 Click the “Use this template” button at the top-right of the repository homepage, then select “Create a new repository” to copy it to your GitHub account.
 
 <img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0002.png" height="200" />
-</p> 
 
-After clicking on “Create a new repository,” GitHub will immediately take you to a page to set initial settings for your new repository. Below, in <span style="color: #3c9696;">[Step 3](#step-3-github-repository-setting-recommendations)</span>, we share our setting suggestions.  
+After clicking on “Create a new repository,” GitHub will immediately take you to a page to set initial settings for your new repository. See <span style="color: #3c9696;">[Step 3](#step-3-github-repository-setting-recommendations)</span> for our setting suggestions.  
 
 
 ### <span style="color: #0c4e6d;">**<u>Step 3: GitHub Repository Setting Recommendations</u>**</span>
@@ -50,26 +49,26 @@ On the “Create a new repository” page, you will be asked to choose your pref
 
 **Start with a template**: recoveryhub/edition_template
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0005.png" height="200" />
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0005.png" />
 
 **Include all branches**: Off
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0006.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0006.png" /> 
 
 **Owner**: Keep your personal account selected unless your edition belongs to a specific GitHub organization.
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0007.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0007.png" /> 
 
 **Repository Name**: Pick a name that is short but memorable (e.g., edition_test_km)
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0008.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0008.png" /> 
 
 > **`Note`**Repository names **<u>cannot</u>** contain spaces, so we recommend using underscores in place of the spaces (e.g., edition_test_km). See <span style="color: #3c9696;">[Naming Your Project](#naming-your-project)</span> for more.
 
     
 **Description**: Optional. You can always add or change later. 
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0009.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0009.png" /> 
 
 **Visibility**: It’s up to you. Either way, people will not be able to make changes without your approval.
 
@@ -77,7 +76,7 @@ On the “Create a new repository” page, you will be asked to choose your pref
 
 > **Public**: To publish your edition with GitHub Pages, your visibility settings **<u>must</u>** be set to Public, which can be changed at any time. Refer to <span style="color: #3c9696;">[Step 5](#step-5-publishing-your-edition-site)</span> for instructions on updating visibility settings at a later time. 
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0010.png" height="300" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/0010.png" /> 
 
 Once you’ve entered your initial settings, click “create repository” at the bottom of the page. 
 
@@ -85,7 +84,7 @@ It will take a few moments to set up your new repository. After it’s created, 
 
 > **`Note`**: Your repository home page is what GitHub calls your repository’s “**main branch**.” The main branch is the primary and definitive version of the project's code, where you organize and store all your folders and files. In Figure 5, you’ll see it’s set as your repository’s default.
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig5.png" height="200" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig5.png" width="50%" /> 
 
 ### <span style="color: #0c4e6d;">**<u>Step 4: Configuring Your Edition Site</u>**</span>
 The Recovery Hub template allows you to customize your edition by making changes (editing settings) in the <span style="color: #E44C31;">**_config.yml**</span> file. 
@@ -99,11 +98,11 @@ Locate and open the file that you need to edit in your repository’s main branc
 
 Next, to make a change, switch to “edit” mode by clicking the pencil icon in the top-right corner of the file. You will not be able to make any changes if you are not in edit mode. 
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig6.png" height="300" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig6.png" width="80%" /> 
 
 After you’ve made your changes, you can either “cancel” or “commit” to them. If you “cancel changes,” your edits will not be applied. Choose “commit changes” to confirm them.
 
-<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig7.png" height="300" /> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig7.png" width="50%" /> 
 
 Before you can commit your changes, GitHub will present you with the option to keep the default or revise the commit message. This _**required**_ field serves as a brief, descriptive record of the changes made in a file. The Git commit message is a crucial part of version control, providing context and a history of code modifications for you and anyone else with access to the repository. Providing an “extended description” is _optional_. 
 
