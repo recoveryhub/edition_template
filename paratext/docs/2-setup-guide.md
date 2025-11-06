@@ -392,11 +392,7 @@ Next, switch to edit mode by clicking the pencil icon in the top-right corner.
 
 At the top of the page, you'll see an option to update the file name, insert a forward slash ( / ) followed by the new folder name. 
 
-IMAGE
-
 You can also create a nested folder within this new folder by adding another forward slash ( / ) followed by the new nested folder name. 
-
-IMAGE
 
 Click "Committ Changes" to save.
 
