@@ -205,7 +205,7 @@ You can add new pages to your site by creating new Markdown (.md) files.
 
 > **`Note`**: A page is a file. On your published site, the file functions as a web page.
 
-For step-by-step instructions on how to add a new page, refer to our guide under <span style="color: #3c9696;">[Additional Consiterations](#how-to-add-a-new-page)</span>
+For step-by-step instructions on how to add a new page, refer to our guide under <span style="color: #3c9696;">[Additional Considerations](#how-to-add-a-new-page)</span>
 
 > **`Note`**: A new page with additional information about your project can be stored in the main branch of your repository alongside <span style="color: #E44C31;">**index.md**</span> and <span style="color: #E44C31;">**about.md**</span>. If it’s a page about the texts in the edition, you may store it in your <span style="color: #63AEB6;">**paratext**</span> folder instead.
 
@@ -237,19 +237,11 @@ After your repository has been made public, the page will reload and take you ba
 
 To publish your site with GitHub Pages, find the "Pages" section in the left-hand menu of the Settings page. Click the box that says "None" and select "Main" instead. Click "Save."
 
-<p align="center">
-  <img 
-    height="400"
-    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig13.png">
-</p> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig13.png" height="200" /> 
 
 Your site will take several minutes to publish. Once it has completed the deployment process, you'll find your link both in the Pages settings page.
 
-<p align="center">
-  <img 
-    height="400"
-    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig14.png">
-</p> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig14.png" height="200" /> 
 
 ### **<u>Additional Considerations</u>**
 
@@ -314,11 +306,7 @@ Other folders beginning with an underscore (<span style="color: #63AEB6;">**_inc
 #### **How to Add a New Page**
 To add a new page, go to your repository's main branch and click “Add file” in the top-right corner and click “Create a new file.” 
 
-<p align="center">
-  <img 
-    height="400"
-    src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig15.png">
-</p> 
+<img src="https://eportfolio.siue.edu/hemingway/wp-content/uploads/sites/40/2025/11/fig15.png" height="200" /> 
 
 You can also upload a file from your computer by clicking "Upload files" and selecting the file you want to upload. 
 
