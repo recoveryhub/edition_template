@@ -90,8 +90,6 @@ src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a
 
 <p align="left">
   <img 
-    width="700"
-    height="400"
     src="https://github.com/KezMill/edition_test_km/blob/257a5f1a5ec1313ef239e887c0a4969f7ae1dfea/assets/images/guide/0008.png">
 </p> 
 
@@ -288,11 +286,12 @@ Click “I have read and understand these effects” on the second pop up box.
 
 Click “Make this repository public" on the last pop up box that appears.
 
-![Box 1](https://)
-
-![Box 2](https://)
-
-![Box 3](https://)
+<p align="center">
+  <img 
+    width="500"
+    height="400"
+    src="https://github.com/recoveryhub/edition_template/blob/13e6686b068ef220a5bf38938533d17168efd942/assets/images/0024.png">
+</p> 
 
 After your repository has been made public, the page will reload and take you back to the top of the setting’s general page. Stay on this page and follow the directions below on how to publish your repository.
 
